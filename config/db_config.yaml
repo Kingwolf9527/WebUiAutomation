@@ -1,0 +1,15 @@
+dbutils_mysql_conf:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: 123456
+  db: python_test
+  charset: utf8
+  # 初始化时，连接池中至少创建的空闲的链接，0表示不创建
+  mincached: 3
+  # 连接池中最多闲置的链接，0和None不限制
+  maxcached: 0
+  # 连接池允许的最大连接数，0和None表示不限制连接数
+  maxconnections: 0
+  # 连接池中如果没有可用连接后，是否阻塞等待。True，等待；False，不等待然后报错
+  blocking: true

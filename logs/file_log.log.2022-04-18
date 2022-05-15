@@ -1,0 +1,9 @@
+2022-04-18 19:57:13,151---[INFO]---[root]---[common_config.py---get_value---27]---------- 获取到指定配置文件的值，selection：browser_type---key：browser---result：chrome -------
+2022-04-18 19:57:13,154---[INFO]---[root]---[common_driver.py---get_driver---37]----------当前浏览器是：chrome-------
+2022-04-18 19:57:16,081---[INFO]---[root]---[common_config.py---get_value---27]---------- 获取到指定配置文件的值，selection：urls---key：dafault_url---result：https://tieba.baidu.com/ -------
+2022-04-18 20:14:17,755---[INFO]---[root]---[common_driver.py---get_driver---37]----------当前浏览器是：chrome-------
+2022-04-18 20:21:55,991---[INFO]---[root]---[common_driver.py---get_driver---37]----------当前浏览器是：chrome-------
+2022-04-18 20:22:00,688---[INFO]---[root]---[common_driver.py---get_driver---37]----------当前浏览器是：chrome-------
+2022-04-18 20:47:00,735---[INFO]---[root]---[common_driver.py---get_driver---37]----------当前浏览器是：chrome-------
+2022-04-18 20:52:37,715---[INFO]---[root]---[common_driver.py---get_driver---37]----------当前浏览器是：chrome-------
+2022-04-18 22:55:54,364---[INFO]---[root]---[common_driver.py---get_driver---37]----------当前浏览器是：chrome-------

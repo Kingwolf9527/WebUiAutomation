@@ -1,0 +1,23 @@
+1649955303151	geckodriver	INFO	Listening on 127.0.0.1:10717
+1649955303341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10718" "-no-remote" "-profile" "C:\\Users\\KingWolf\\AppData\\Local\\Temp\\rust_mozprofileQ6NIA1"
+1649955347836	geckodriver	INFO	Listening on 127.0.0.1:10763
+1649955348523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10764" "-no-remote" "-profile" "C:\\Users\\KingWolf\\AppData\\Local\\Temp\\rust_mozprofileGfQbrL"
+1649955351523	Marionette	INFO	Marionette enabled
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\KingWolf\\AppData\\Local\\Temp\\rust_mozprofileGfQbrL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10764/devtools/browser/fe3b3420-ecde-4381-92f1-3f5490b6eff2
+1649955368218	Marionette	INFO	Listening on port 10771
+1649955368641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1649955414734	Marionette	INFO	Stopped listening on port 10771
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1649955427736	geckodriver	INFO	Listening on 127.0.0.1:11073
+1649955427828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11074" "-no-remote" "-profile" "C:\\Users\\KingWolf\\AppData\\Local\\Temp\\rust_mozprofileAKbvcT"
+1649955428765	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\KingWolf\\AppData\\Local\\Temp\\rust_mozprofileAKbvcT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:11074/devtools/browser/31b00dcb-3541-4b0c-8679-7af9a6634ec1
+1649955434953	Marionette	INFO	Listening on port 11077
+1649955435421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649955448754	Marionette	INFO	Stopped listening on port 11077
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
