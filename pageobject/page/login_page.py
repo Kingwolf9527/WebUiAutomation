@@ -19,9 +19,14 @@ class LoginPage(BaseHandle):
     tieba_other_urls = (By.XPATH, '//a[@class="unsign"]')
     sign_button = (By.XPATH, '//a[contains(@class, "j_cansign")]')
 
-
     # 页面操作
     def go_login(self, username, password):
+        """
+        登录操作
+        @param username:
+        @param password:
+        @return:
+        """
         self.maximize()
         self.open(LoginPage.login_url)
         self.click(LoginPage.login)
@@ -31,6 +36,12 @@ class LoginPage(BaseHandle):
         self.click(LoginPage.login_button)
 
     def go_sign(self, username, password):
+        """
+        自动签到
+        @param username:
+        @param password:
+        @return:
+        """
         self.go_login(username, password)
         total_urls = []
         tieba_common = self.find_elements(LoginPage.tieba_urls)
@@ -45,4 +56,3 @@ class LoginPage(BaseHandle):
         for ever_tieba_url in total_urls:
             self.open(ever_tieba_url)
             self.click(LoginPage.sign_button)
-

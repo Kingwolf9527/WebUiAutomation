@@ -1,10 +1,14 @@
 # - * - coding:utf-8
 # __author__ : kingwolf
 # createtime : 2021/9/16 2:35
-
+import os
+import time
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.action_chains import ActionChains as AC
+from common.common_file_path import image_dir
+from common.common_log import CommonLog
 from pageobject.base.base_view import BaseView
+logger = CommonLog.get_logger()
 
 
 class BaseHandle(BaseView):
@@ -167,6 +171,29 @@ class BaseHandle(BaseView):
         @return:
         """
         return element.is_enabled()
+
+    def save_screenshot(self, img_name):
+        """
+        保存截图
+        @param img_name: 截图命名规范 页面名称_页面行为_时间.png
+        @return:
+        """
+        # 格式化处理时间
+        now_time = time.strftime("%Y-%m-%d-%H_%M_%S")
+        # 判断截图文件夹是否存在
+        existsDir = os.path.exists(image_dir)
+        if not existsDir:
+            try:
+                os.makedirs(image_dir)
+            except FileExistsError:
+                raise FileNotFoundError("------- 文件找不到！ -------")
+        # 截图保存路径
+        save_image_path = os.path.join(image_dir, f"{img_name}_{now_time}.png")
+        try:
+            self.driver.get_screenshot_as_file(save_image_path)
+            logger.info(f'-------截图当前网页成功并存储在：{save_image_path}-------')
+        except:
+            logger.error(f"------- 截图当前网页失败！ -------")
 
 
 
