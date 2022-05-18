@@ -9,7 +9,7 @@ class TestTiebaLogin(object):
 
     def test_login(self):
         d = LoginPage(browser="chrome")
-        d.go_sign("1069645896@qq.com", "922521dfxs5619")
+        d.go_sign("xxxxxx", "xxxxx")
 
 
 if __name__ == '__main__':
