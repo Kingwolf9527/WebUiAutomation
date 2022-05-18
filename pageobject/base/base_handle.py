@@ -22,6 +22,12 @@ class BaseHandle(BaseView):
         """
         self.driver.get(url)
 
+    def quit(self):
+        """
+        @return:
+        """
+        self._base.quit_driver()
+
     def maximize(self):
         """
         窗口最大化

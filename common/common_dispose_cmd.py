@@ -45,9 +45,9 @@ class DisposeCommand(object):
 
 
 if __name__ == '__main__':
-    # cmd = 'netstat -ano'
-    # dd = DisposeCommand.dispose_cmdline(cmd)
-    # print(dd)
-
-    dd = DisposeCommand.get_browser_version(browser="chrome")
+    cmd = 'netstat -ano'
+    dd = DisposeCommand.dispose_cmdline(cmd)
     print(dd)
+
+    # dd = DisposeCommand.get_browser_version(browser="chrome")
+    # print(dd)

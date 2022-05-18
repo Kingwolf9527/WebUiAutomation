@@ -13,7 +13,8 @@ sys.path.append(r"F:\WebUiAutomation")
 class BaseView(object):
 
     def __init__(self, browser):
-        self.driver = CommonDriver().get_driver(browser)
+        self._base = CommonDriver()
+        self.driver = self._base.get_driver(browser)
 
     def find_element(self, loc, timeout=30, poll_frequency=0.5):
         """
