@@ -34,11 +34,10 @@ mysql_info = {
     "blocking": CommonConvertData().string_to_bool(target=conf.get_value('dbutils_mysql_conf', 'blocking'))
 }
 
-
 class CommonDbutils(object):
 
     def __init__(self):
-        # # 注册一个自动退出函数,拥有与__del__函数同样的效果
+        # 注册一个自动退出函数,拥有与__del__函数同样的效果
         atexit.register(self.dealloc)
         self.conf = CommonConfig()
         self.host = self.conf.get_value('dbutils_mysql_conf', 'host')

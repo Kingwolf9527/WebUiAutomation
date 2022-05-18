@@ -9,6 +9,9 @@ import yaml
 class CommonYaml(object):
 
     def __init__(self, file):
+        """
+        @param file:
+        """
         self.file = file
 
     def read_yaml(self):

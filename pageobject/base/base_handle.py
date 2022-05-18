@@ -8,6 +8,7 @@ from selenium.webdriver.common.action_chains import ActionChains as AC
 from common.common_file_path import image_dir
 from common.common_log import CommonLog
 from pageobject.base.base_view import BaseView
+
 logger = CommonLog.get_logger()
 
 

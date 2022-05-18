@@ -21,6 +21,11 @@ class CommonDriver(object):
 
     @classmethod
     def get_driver(cls, browser):
+        """
+        浏览器类型：谷歌，edge，火狐或者其他
+        @param browser:
+        @return:
+        """
         # 外层校验是为了避免单例已产生后，线程还要拿锁，浪费锁资源
         if cls.__driver is None:
             with cls.__driver_lock:
