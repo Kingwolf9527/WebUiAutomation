@@ -4,7 +4,7 @@
 
 import pytest
 import allure
-from ..page.login_page import LoginPage
+from pageobject.page.login_page import LoginPage
 
 @allure.feature("测试百度贴吧")
 class TestTiebaLogin(object):
