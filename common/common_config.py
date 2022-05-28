@@ -22,6 +22,12 @@ class CommonConfig(object):
         self.cf.read(filenames=file_path, encoding="utf-8")
 
     def get_value(self, selection, key):
+        """
+        
+        @param selection:
+        @param key:
+        @return:
+        """
         try:
             result = self.cf.get(selection, key)
             logger.info(f"------- 获取到指定配置文件的值，selection：{selection}---key：{key}---result：{result} -------")

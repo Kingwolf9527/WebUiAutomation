@@ -19,6 +19,12 @@ firefox_driver_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspa
 edge_driver_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))),
                                 "data", "browser_drivers", "msedgedriver.exe")
 
+# 处理allure报告的路径
+allure_json_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'allure_report', 'json_path')
+
+allure_html_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'allure_report', 'allure_path')
+
+
 
 # 配置文件路径
 config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "config", "config.ini")

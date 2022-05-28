@@ -1,6 +1,8 @@
 # - * - coding:utf-8
 # __author__ : kingwolf
 # createtime : 2021/9/16 2:35
+
+import sys
 import os
 import time
 from selenium.webdriver.support.select import Select
@@ -9,8 +11,8 @@ from common.common_file_path import image_dir
 from common.common_log import CommonLog
 from pageobject.base.base_view import BaseView
 
-logger = CommonLog.get_logger()
-
+sys.path.append(".")
+sys.path.append(r"F:\WebUiAutomation")
 
 class BaseHandle(BaseView):
 

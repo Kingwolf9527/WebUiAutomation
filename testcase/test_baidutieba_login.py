@@ -10,7 +10,6 @@ from pageobject.page.login_page import LoginPage
 class TestTiebaLogin(object):
     
     @allure.story("测试百度贴吧自动登录以及自动签到功能")
-    @allure.dynamic.title("默认账号自动登录百度贴吧，并且完成自动签到所以贴吧")
     def test_login(self):
         with allure.step("登录处理"):
             d = LoginPage(browser="chrome")
