@@ -1,0 +1,34 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_baidutieba_login",
+      "children" : [ {
+        "name" : "TestTiebaLogin",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "7898259533f30444",
+          "parentUid" : "be0ff6506844ce2594579181e57a850c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1653752299714,
+            "stop" : 1653752472143,
+            "duration" : 172429
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "be0ff6506844ce2594579181e57a850c"
+      } ],
+      "uid" : "86c8b94ceaa887d8136c96d81a92e37b"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

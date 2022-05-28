@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试百度贴吧",
+    "children" : [ {
+      "name" : "测试百度贴吧自动登录以及自动签到功能",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "7898259533f30444",
+        "parentUid" : "c14c74584f7acf091515a3f1b9381d43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653752299714,
+          "stop" : 1653752472143,
+          "duration" : 172429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c14c74584f7acf091515a3f1b9381d43"
+    } ],
+    "uid" : "9c31a7c82462c0d90c4ddbcad6fba82a"
+  } ]
+}

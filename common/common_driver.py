@@ -53,6 +53,7 @@ class CommonDriver(object):
             cls.__driver.quit()
             # 退出后，重新置空__driver
             cls.__driver = None
+            
 if __name__ == '__main__':
     browser = CommonConfig().get_value("browser_type", "browser")
     dd = CommonDriver().get_driver(browser)

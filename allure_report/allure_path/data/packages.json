@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_baidutieba_login",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "7898259533f30444",
+      "parentUid" : "60aba9bd8bb3b1057ce11cf1eb29ca9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653752299714,
+        "stop" : 1653752472143,
+        "duration" : 172429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.test_baidutieba_login"
+  } ]
+}

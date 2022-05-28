@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "King",
+    "children" : [ {
+      "name" : "11988-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "7898259533f30444",
+        "parentUid" : "4c005f051c01aa678d2549a25a912765",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653752299714,
+          "stop" : 1653752472143,
+          "duration" : 172429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c005f051c01aa678d2549a25a912765"
+    } ],
+    "uid" : "df71702bfb8a0aee4c0ccdc27ba37b7f"
+  } ]
+}
