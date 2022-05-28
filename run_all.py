@@ -42,4 +42,4 @@ class TestRunAll(object):
         # 发送邮件(交给Jenkins处理)
 
 if __name__ == '__main__':
-    TestRunAll.run_all()
+    TestRunAll().run_all()
