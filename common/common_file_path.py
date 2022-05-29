@@ -8,16 +8,15 @@ sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
 
 
-# 谷歌浏览器驱动
-# chrome_driver_path = r"F:\WebUiAutomation\data\browser_drivers\chromedriver.exe"
-chrome_driver_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))),
-                                   "data", "browser_drivers", "chromedriver.exe")
-# 火狐浏览器驱动
-firefox_driver_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))),
-                                   "data", "browser_drivers", "geckodriver.exe")
-# edge浏览器驱动
-edge_driver_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))),
-                                "data", "browser_drivers", "msedgedriver.exe")
+# # 谷歌浏览器驱动
+# chrome_driver_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))),
+#                                    "data", "browser_drivers", "chromedriver.exe")
+# # 火狐浏览器驱动
+# firefox_driver_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))),
+#                                    "data", "browser_drivers", "geckodriver.exe")
+# # edge浏览器驱动
+# edge_driver_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))),
+#                                 "data", "browser_drivers", "msedgedriver.exe")
 
 # 处理allure报告的路径
 allure_json_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'allure_report', 'json_path')
@@ -43,4 +42,3 @@ default_excel_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspat
 
 # 默认sheet_name
 default_sheet_name = "users"
-

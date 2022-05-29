@@ -7,13 +7,13 @@
       "name" : "测试百度贴吧自动登录以及自动签到功能",
       "children" : [ {
         "name" : "test_login",
-        "uid" : "1793e0c3318eacdc",
+        "uid" : "b12f2333e04996d",
         "parentUid" : "c14c74584f7acf091515a3f1b9381d43",
         "status" : "passed",
         "time" : {
-          "start" : 1653839105353,
-          "stop" : 1653839285513,
-          "duration" : 180160
+          "start" : 1653856115599,
+          "stop" : 1653856279779,
+          "duration" : 164180
         },
         "flaky" : false,
         "newFailed" : false,

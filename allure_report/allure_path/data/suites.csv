@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun May 29 23:45:05 CST 2022","Sun May 29 23:48:05 CST 2022","180160","testcase","test_baidutieba_login","TestTiebaLogin","","","test_login",""
+"passed","Mon May 30 04:28:35 CST 2022","Mon May 30 04:31:19 CST 2022","164180","testcase","test_baidutieba_login","TestTiebaLogin","","","test_login",""

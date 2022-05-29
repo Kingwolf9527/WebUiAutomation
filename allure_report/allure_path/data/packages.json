@@ -5,13 +5,13 @@
     "name" : "testcase.test_baidutieba_login",
     "children" : [ {
       "name" : "test_login",
-      "uid" : "1793e0c3318eacdc",
+      "uid" : "b12f2333e04996d",
       "parentUid" : "60aba9bd8bb3b1057ce11cf1eb29ca9b",
       "status" : "passed",
       "time" : {
-        "start" : 1653839105353,
-        "stop" : 1653839285513,
-        "duration" : 180160
+        "start" : 1653856115599,
+        "stop" : 1653856279779,
+        "duration" : 164180
       },
       "flaky" : false,
       "newFailed" : false,

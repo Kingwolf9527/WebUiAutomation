@@ -37,13 +37,13 @@ class CommonDriver(object):
                     # cls.__driver = getattr(webdriver, browser)(executable_path=chrome_driver_path)
                     if browser.lower() == "firefox":
                         logger.info(f"-------当前浏览器是：{browser}-------")
-                        cls.__driver = webdriver.Firefox(service=FS(firefox_driver_path))
+                        cls.__driver = webdriver.Firefox()
                     elif browser.lower() == "edge":
                         logger.info(f"-------当前浏览器是：{browser}-------")
-                        cls.__driver = webdriver.Edge(service=ES(edge_driver_path))
+                        cls.__driver = webdriver.Edge()
                     elif browser.lower() == "chrome":
                         logger.info(f"-------当前浏览器是：{browser}-------")
-                        cls.__driver = webdriver.Chrome(service=CS(chrome_driver_path))
+                        cls.__driver = webdriver.Chrome()
                     else:
                         logger.error(f"-------暂时不支持当前浏览器：{browser}，请更换一款浏览器！(暂时支持Chrome，Firefox，edge)-------")
                         raise KeyError(f"暂时不支持当前浏览器：{browser}，请更换一款浏览器！(暂时支持Chrome，Firefox，edge)")
@@ -58,8 +58,7 @@ class CommonDriver(object):
             cls.__driver = None
             
 if __name__ == '__main__':
-    browser = CommonConfig().get_value("browser_type", "browser")
-    dd = CommonDriver().get_driver(browser)
-    start_url = CommonConfig().get_value("urls", "dafault_url")
-    dd.get(start_url)
-    # CommonDriver().quit_driver()
+    d = CommonDriver()
+    dd = d.get_driver("edge")
+    dd.get("https://douyu.com")
+    # d.quit_driver()
