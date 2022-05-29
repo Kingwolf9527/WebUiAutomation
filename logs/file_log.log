@@ -1,3 +1,12 @@
-2022-05-28 23:38:12,300---[INFO]---[root]---[run_all.py---run_all---24]-------------json_path的目录为：F:\WebUiAutomation\allure_report\json_path----------
-2022-05-28 23:38:12,303---[INFO]---[root]---[run_all.py---run_all---25]-------------allure_path的目录为：F:\WebUiAutomation\allure_report\allure_path----------
-2022-05-28 23:38:19,714---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
+2022-05-30 03:44:02,112---[INFO]---[root]---[common_config.py---get_value---33]---------- 获取到指定配置文件的值，selection：browser_type---key：browser---result：chrome -------
+2022-05-30 03:44:02,114---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
+2022-05-30 03:44:04,142---[INFO]---[root]---[common_config.py---get_value---33]---------- 获取到指定配置文件的值，selection：urls---key：dafault_url---result：https://qq.com/ -------
+2022-05-30 03:54:07,953---[INFO]---[root]---[common_config.py---get_value---33]---------- 获取到指定配置文件的值，selection：browser_type---key：browser---result：chrome -------
+2022-05-30 03:54:07,954---[INFO]---[root]---[common_driver.py---get_driver---45]----------当前浏览器是：chrome-------
+2022-05-30 03:54:10,166---[INFO]---[root]---[common_config.py---get_value---33]---------- 获取到指定配置文件的值，selection：urls---key：dafault_url---result：https://qq.com/ -------
+2022-05-30 03:55:05,104---[INFO]---[root]---[common_config.py---get_value---33]---------- 获取到指定配置文件的值，selection：browser_type---key：browser---result：edge -------
+2022-05-30 03:55:05,104---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：edge-------
+2022-05-30 03:55:08,912---[INFO]---[root]---[common_config.py---get_value---33]---------- 获取到指定配置文件的值，selection：urls---key：dafault_url---result：https://qq.com/ -------
+2022-05-30 03:55:37,149---[INFO]---[root]---[common_config.py---get_value---33]---------- 获取到指定配置文件的值，selection：browser_type---key：browser---result：firefox -------
+2022-05-30 03:55:37,149---[INFO]---[root]---[common_driver.py---get_driver---39]----------当前浏览器是：firefox-------
+2022-05-30 03:55:45,479---[INFO]---[root]---[common_config.py---get_value---33]---------- 获取到指定配置文件的值，selection：urls---key：dafault_url---result：https://qq.com/ -------

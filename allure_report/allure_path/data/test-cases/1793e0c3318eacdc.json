@@ -1,12 +1,12 @@
 {
-  "uid" : "7898259533f30444",
+  "uid" : "1793e0c3318eacdc",
   "name" : "test_login",
   "fullName" : "testcase.test_baidutieba_login.TestTiebaLogin#test_login",
   "historyId" : "6e999e2f730f163f636855db4d0ecaa4",
   "time" : {
-    "start" : 1653752299714,
-    "stop" : 1653752472143,
-    "duration" : 172429
+    "start" : 1653839105353,
+    "stop" : 1653839285513,
+    "duration" : 180160
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1653752299469,
-      "stop" : 1653752299707,
-      "duration" : 238
+      "start" : 1653839105034,
+      "stop" : 1653839105328,
+      "duration" : 294
     },
     "status" : "passed",
     "steps" : [ ],
@@ -36,9 +36,9 @@
     "steps" : [ {
       "name" : "登录处理",
       "time" : {
-        "start" : 1653752299714,
-        "stop" : 1653752301569,
-        "duration" : 1855
+        "start" : 1653839105355,
+        "stop" : 1653839107561,
+        "duration" : 2206
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "签到处理",
       "time" : {
-        "start" : 1653752301569,
-        "stop" : 1653752472142,
-        "duration" : 170573
+        "start" : 1653839107561,
+        "stop" : 1653839285512,
+        "duration" : 177951
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +65,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "89a3c132e375e0d0",
+      "uid" : "4d774b5eaed8ab12",
       "name" : "log",
-      "source" : "89a3c132e375e0d0.txt",
+      "source" : "4d774b5eaed8ab12.txt",
       "type" : "text/plain",
       "size" : 75
     } ],
@@ -79,11 +79,11 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "测试百度贴吧自动登录以及自动签到功能"
-  }, {
     "name" : "feature",
     "value" : "测试百度贴吧"
+  }, {
+    "name" : "story",
+    "value" : "测试百度贴吧自动登录以及自动签到功能"
   }, {
     "name" : "parentSuite",
     "value" : "testcase"
@@ -98,7 +98,7 @@
     "value" : "King"
   }, {
     "name" : "thread",
-    "value" : "11988-MainThread"
+    "value" : "15180-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -122,6 +122,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7898259533f30444.json",
+  "source" : "1793e0c3318eacdc.json",
   "parameterValues" : [ ]
 }

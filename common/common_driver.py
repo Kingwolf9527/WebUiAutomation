@@ -4,6 +4,9 @@
 
 import sys
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as CS
+from selenium.webdriver.edge.service import Service as ES
+from selenium.webdriver.firefox.service import Service as FS
 import threading
 from common.common_file_path import chrome_driver_path, firefox_driver_path, edge_driver_path
 from common.common_log import CommonLog
@@ -34,13 +37,13 @@ class CommonDriver(object):
                     # cls.__driver = getattr(webdriver, browser)(executable_path=chrome_driver_path)
                     if browser.lower() == "firefox":
                         logger.info(f"-------当前浏览器是：{browser}-------")
-                        cls.__driver = webdriver.Firefox(executable_path=firefox_driver_path)
+                        cls.__driver = webdriver.Firefox(service=FS(firefox_driver_path))
                     elif browser.lower() == "edge":
                         logger.info(f"-------当前浏览器是：{browser}-------")
-                        cls.__driver = webdriver.Edge(executable_path=edge_driver_path)
+                        cls.__driver = webdriver.Edge(service=ES(edge_driver_path))
                     elif browser.lower() == "chrome":
                         logger.info(f"-------当前浏览器是：{browser}-------")
-                        cls.__driver = webdriver.Chrome()
+                        cls.__driver = webdriver.Chrome(service=CS(chrome_driver_path))
                     else:
                         logger.error(f"-------暂时不支持当前浏览器：{browser}，请更换一款浏览器！(暂时支持Chrome，Firefox，edge)-------")
                         raise KeyError(f"暂时不支持当前浏览器：{browser}，请更换一款浏览器！(暂时支持Chrome，Firefox，edge)")
@@ -59,4 +62,4 @@ if __name__ == '__main__':
     dd = CommonDriver().get_driver(browser)
     start_url = CommonConfig().get_value("urls", "dafault_url")
     dd.get(start_url)
-    CommonDriver().quit_driver()
+    # CommonDriver().quit_driver()

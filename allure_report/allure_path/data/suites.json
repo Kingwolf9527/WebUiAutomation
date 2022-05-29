@@ -9,13 +9,13 @@
         "name" : "TestTiebaLogin",
         "children" : [ {
           "name" : "test_login",
-          "uid" : "7898259533f30444",
+          "uid" : "1793e0c3318eacdc",
           "parentUid" : "be0ff6506844ce2594579181e57a850c",
           "status" : "passed",
           "time" : {
-            "start" : 1653752299714,
-            "stop" : 1653752472143,
-            "duration" : 172429
+            "start" : 1653839105353,
+            "stop" : 1653839285513,
+            "duration" : 180160
           },
           "flaky" : false,
           "newFailed" : false,
