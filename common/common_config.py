@@ -3,13 +3,13 @@
 # createtime : 2021/7/16 6:03
 
 import sys
+sys.path.append("..")
+sys.path.append(r"F:\WebUiAutomation")
 import os
 import configparser
 from common.common_log import CommonLog
 from common.common_file_path import config_path
 
-sys.path.append("..")
-sys.path.append(r"F:\WebUiAutomation")
 logger = CommonLog.get_logger()
 
 class CommonConfig(object):

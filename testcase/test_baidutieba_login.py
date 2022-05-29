@@ -3,12 +3,11 @@
 # createtime : 2022/4/14 23:34
 
 import sys
+sys.path.append(".")
+sys.path.append(r"F:\WebUiAutomation")
 import pytest
 import allure
 from pageobject.page.login_page import LoginPage
-
-sys.path.append(".")
-sys.path.append(r"F:\WebUiAutomation")
 
 @allure.feature("测试百度贴吧")
 class TestTiebaLogin(object):

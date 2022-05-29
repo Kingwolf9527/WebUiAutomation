@@ -3,6 +3,8 @@
 # createtime : 2021/9/16 2:35
 
 import sys
+sys.path.append(".")
+sys.path.append(r"F:\WebUiAutomation")
 import os
 import time
 from selenium.webdriver.support.select import Select
@@ -10,9 +12,6 @@ from selenium.webdriver.common.action_chains import ActionChains as AC
 from common.common_file_path import image_dir
 from common.common_log import CommonLog
 from pageobject.base.base_view import BaseView
-
-sys.path.append(".")
-sys.path.append(r"F:\WebUiAutomation")
 
 class BaseHandle(BaseView):
 

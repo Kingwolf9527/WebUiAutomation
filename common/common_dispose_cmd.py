@@ -3,12 +3,12 @@
 #createtime : 2020/7/1 0:23
 
 import sys
+sys.path.append("..")
+sys.path.append(r"F:\WebUiAutomation")
 import subprocess
 import chardet
 import winreg
 
-sys.path.append("..")
-sys.path.append(r"F:\WebUiAutomation")
 
 
 

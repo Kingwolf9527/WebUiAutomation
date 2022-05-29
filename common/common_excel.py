@@ -1,14 +1,15 @@
 # - * - coding:utf-8
 # __author__ : kingwolf
 # createtime : 2021/8/17 3:46
+
 import sys
+sys.path.append(".")
+sys.path.append(r"F:\WebUiAutomation")
 from openpyxl import load_workbook
 from common.common_convert_data_type import CommonConvertData
 from common import common_file_path
 from common.common_log import CommonLog
 
-sys.path.append(".")
-sys.path.append(r"F:\WebUiAutomation")
 logger = CommonLog.get_logger()
 
 

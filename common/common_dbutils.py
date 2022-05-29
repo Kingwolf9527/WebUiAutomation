@@ -3,6 +3,8 @@
 # createtime : 2020/8/1 4:16
 
 import sys
+sys.path.append("..")
+sys.path.append(r"F:\WebUiAutomation")
 import time
 import atexit
 import pymysql
@@ -12,8 +14,6 @@ from common.common_config import CommonConfig
 from common.common_convert_data_type import CommonConvertData
 from common.common_log import CommonLog
 
-sys.path.append("..")
-sys.path.append(r"F:\WebUiAutomation")
 logger = CommonLog.get_logger()
 
 # 数据库配置数据处理

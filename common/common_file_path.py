@@ -2,10 +2,9 @@
 # __author__ : kingwolf
 # createtime : 2021/7/14 4:23
 import sys
-import os
-
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
+import os
 
 
 # # 谷歌浏览器驱动

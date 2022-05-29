@@ -3,17 +3,17 @@
 # createtime : 2021/7/14 4:15
 
 import sys
+sys.path.append(".")
+sys.path.append(r"F:\WebUiAutomation")
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as CS
-from selenium.webdriver.edge.service import Service as ES
-from selenium.webdriver.firefox.service import Service as FS
+# from selenium.webdriver.chrome.service import Service as CS
+# from selenium.webdriver.edge.service import Service as ES
+# from selenium.webdriver.firefox.service import Service as FS
 import threading
-from common.common_file_path import chrome_driver_path, firefox_driver_path, edge_driver_path
+# from common.common_file_path import chrome_driver_path, firefox_driver_path, edge_driver_path
 from common.common_log import CommonLog
 from common.common_config import CommonConfig
 
-sys.path.append("..")
-sys.path.append(r"F:\WebUiAutomation")
 logger = CommonLog.get_logger()
 
 class CommonDriver(object):

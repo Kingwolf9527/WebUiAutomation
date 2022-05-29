@@ -1,14 +1,15 @@
 # - * - coding:utf-8
 # __author__ : kingwolf
 # createtime : 2021/8/10 18:00
+
 import sys
+sys.path.append("..")
+sys.path.append(r"F:\WebUiAutomation")
 
 
 from selenium.webdriver.support.wait import WebDriverWait
 from common.common_driver import CommonDriver
 
-sys.path.append("..")
-sys.path.append(r"F:\WebUiAutomation")
 
 class BaseView(object):
 

@@ -3,13 +3,13 @@
 # createtime : 2021/7/13 22:47
 
 import sys
+sys.path.append(".")
+sys.path.append(r"F:\WebUiAutomation")
 import os
 import threading
 import logging
 from logging import handlers
 
-sys.path.append(".")
-sys.path.append(r"F:\WebUiAutomation")
 
 
 class CommonLog(object):

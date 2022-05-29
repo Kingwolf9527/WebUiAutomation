@@ -4,15 +4,15 @@
 #   @File      :    run_all.py
 #   @Project   :    WebUiAutomation
 
-import os
 import sys
+sys.path.append("..")
+sys.path.append(r"F:\WebUiAutomation")
+import os
 import pytest
 from common.common_log import CommonLog
 from common.common_file_path import allure_json_path, allure_html_path
 from common.common_dispose_cmd import DisposeCommand
 
-sys.path.append(".")
-sys.path.append(r"F:\WebUiAutomation")
 logger = CommonLog.get_logger()
 
 
