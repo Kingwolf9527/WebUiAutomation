@@ -2,8 +2,12 @@
 # __author__ : kingwolf
 # create-time : 2022/4/12 22:33
 
+import sys
 from selenium.webdriver.common.by import By
 from ..base.base_handle import BaseHandle
+
+sys.path.append(".")
+sys.path.append(r"F:\WebUiAutomation")
 
 class LoginPage(BaseHandle):
 
