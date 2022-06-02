@@ -6,11 +6,7 @@ import sys
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
 from selenium import webdriver
-# from selenium.webdriver.chrome.service import Service as CS
-# from selenium.webdriver.edge.service import Service as ES
-# from selenium.webdriver.firefox.service import Service as FS
 import threading
-# from common.common_file_path import chrome_driver_path, firefox_driver_path, edge_driver_path
 from common.common_log import CommonLog
 from common.common_config import CommonConfig
 
@@ -55,6 +51,7 @@ class CommonDriver(object):
         if cls.__driver:
             cls.__driver.quit()
             # 退出后，重新置空__driver
+            logger.info(f"-------重新置空driver-------")
             cls.__driver = None
             
 if __name__ == '__main__':
