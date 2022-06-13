@@ -1,6 +1,7 @@
 # - * - coding:utf-8
 # __author__ : kingwolf
 # createtime : 2021/7/14 4:23
+
 import sys
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
@@ -25,10 +26,13 @@ allure_html_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(
 
 
 # 配置文件路径
-config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "config", "config.ini")
+base_config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "data", "base.yaml")
 
 # 数据库yaml格式配置文件
 db_config = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "config", "db_config.yaml")
+
+# 普通用户账号数据
+foreground_infos = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "data", "foreground.yaml")
 
 
 # 截图保存文件路径
@@ -41,3 +45,4 @@ default_excel_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspat
 
 # 默认sheet_name
 default_sheet_name = "users"
+

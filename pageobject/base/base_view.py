@@ -13,9 +13,9 @@ from common.common_driver import CommonDriver
 
 class BaseView(object):
 
-    def __init__(self, browser):
+    def __init__(self):
         self._base = CommonDriver()
-        self.driver = self._base.get_driver(browser)
+        self.driver = self._base.get_driver()
 
     def find_element(self, loc, timeout=30, poll_frequency=0.5):
         """

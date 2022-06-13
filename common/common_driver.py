@@ -8,7 +8,8 @@ sys.path.append(r"F:\WebUiAutomation")
 from selenium import webdriver
 import threading
 from common.common_log import CommonLog
-from common.common_config import CommonConfig
+from common.common_file_path import base_config_path
+from common.common_config_yaml import CommonYaml
 
 logger = CommonLog.get_logger()
 
@@ -19,12 +20,12 @@ class CommonDriver(object):
     __driver_lock = threading.Lock()
 
     @classmethod
-    def get_driver(cls, browser):
+    def get_driver(cls):
         """
         浏览器类型：谷歌，edge，火狐或者其他
-        @param browser:
         @return:
         """
+        browser = CommonYaml(base_config_path).read_yaml()['browser_type']
         # 外层校验是为了避免单例已产生后，线程还要拿锁，浪费锁资源
         if cls.__driver is None:
             with cls.__driver_lock:
@@ -43,7 +44,7 @@ class CommonDriver(object):
                     else:
                         logger.error(f"-------暂时不支持当前浏览器：{browser}，请更换一款浏览器！(暂时支持Chrome，Firefox，edge)-------")
                         raise KeyError(f"暂时不支持当前浏览器：{browser}，请更换一款浏览器！(暂时支持Chrome，Firefox，edge)")
-
+                
                 return cls.__driver
 
     @classmethod
@@ -56,6 +57,6 @@ class CommonDriver(object):
             
 if __name__ == '__main__':
     d = CommonDriver()
-    dd = d.get_driver("edge")
+    dd = d.get_driver()
     dd.get("https://douyu.com")
-    # d.quit_driver()
+    d.quit_driver()

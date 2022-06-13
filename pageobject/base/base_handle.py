@@ -206,5 +206,5 @@ class BaseHandle(BaseView):
 
 
 if __name__ == '__main__':
-    d = BaseHandle(browser="chrome")
+    d = BaseHandle()
     d.open("https://tieba.baidu.com/")

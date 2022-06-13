@@ -1,0 +1,11 @@
+
+-
+  # 普通前台用户账号
+  username: 13800138006
+  password: 123456
+
+  # 地址管理管理：新增信息
+  consignee: 测试kingwolf77777
+  phone_num: 13333333333
+  detail_address: 狼胸帝国大厦1414号
+  zipcode: 100000
