@@ -1,4 +1,4 @@
-# -*- conding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #   @Author    :    KingWolf
 #   @Time      :    2022/5/28 18:50
 #   @File      :    run_all.py

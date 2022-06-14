@@ -1,4 +1,4 @@
-# -*- conding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #   @Author    :    KingWolf
 #   @Time      :    2022/6/13 4:01
 #   @File      :    tpshop_login_page.py

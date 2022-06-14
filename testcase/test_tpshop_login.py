@@ -1,11 +1,10 @@
-# -*- conding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #   @Author    :    KingWolf
 #   @Time      :    2022/6/13 4:13
 #   @File      :    test_tpshop_login.py
 #   @Project   :    WebUiAutomation
 
 import sys
-
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
 import pytest
@@ -17,13 +16,17 @@ from common.common_log import CommonLog
 
 logger = CommonLog().get_logger()
 
-
 @allure.feature("Tpshop项目的登录测试")
 class TestTpshopLogin(object):
     
     @allure.story("验证登录功能")
     @pytest.mark.parametrize("account_info", CommonYaml(foreground_infos).read_yaml())
     def test_tpshop_login(self, account_info):
+        """
+        账号信息
+        @param account_info:
+        @return:
+        """
         dd = TpshopLoginPage()
         dd.tpshop_login(account_info['username'], account_info['password'], '2222')
         assert dd.is_displayed(dd.find_element_highlight(dd.exchanges)) == True

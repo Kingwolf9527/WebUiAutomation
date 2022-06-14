@@ -1,4 +1,4 @@
-# -*- conding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #   @Author    :    KingWolf
 #   @Time      :    2022/6/14 0:08
 #   @File      :    address_dispose_page.py
@@ -74,6 +74,13 @@ class Address(TpshopLoginPage):
         
     
     def delete_address(self, username, password, verify_code):
+        """
+        删除地址
+        @param username:
+        @param password:
+        @param verify_code:
+        @return:
+        """
         # 登录
         self.tpshop_login(username, password, verify_code)
         # 悬停进入地址管理

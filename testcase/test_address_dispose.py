@@ -1,11 +1,10 @@
-# -*- conding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #   @Author    :    KingWolf
 #   @Time      :    2022/6/14 3:27
 #   @File      :    test_address_dispose.py
 #   @Project   :    WebUiAutomation
 
 import sys
-
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
 import pytest

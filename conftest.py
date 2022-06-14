@@ -1,4 +1,4 @@
-# -*- conding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #   @Author    :    KingWolf
 #   @Time      :    2022/6/4 22:41
 #   @File      :    conftest.py
@@ -22,7 +22,6 @@ logger = CommonLog.get_logger()
 def get_driver():
     """
     浏览器类型：谷歌，edge，火狐或者其他
-    @param browser:
     @return:
     """
     __driver = None
