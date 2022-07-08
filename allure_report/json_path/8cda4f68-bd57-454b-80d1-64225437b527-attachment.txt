@@ -1,0 +1,5 @@
+INFO     root:test_tpshop_login.py:30 --------正在执行登录操作！ --------
+INFO     root:common_driver.py:42 -------当前浏览器是：chrome-------
+INFO     root:test_tpshop_login.py:34 -------- 当前页面的‘交易中心’元素是否显示：True --------
+INFO     root:test_tpshop_login.py:36 -------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
+INFO     root:test_tpshop_login.py:37 --------登录成功！ --------

@@ -1,0 +1,103 @@
+{
+  "uid" : "7b62f27b5344b2d1",
+  "name" : "test_tpshop_login[account_info0]",
+  "fullName" : "testcase.test_tpshop_login.TestTpshopLogin#test_tpshop_login",
+  "historyId" : "37d66318649c3dab5285721059de7a1b",
+  "time" : {
+    "start" : 1655416893757,
+    "stop" : 1655416931598,
+    "duration" : 37841
+  },
+  "description" : "\n        账号信息\n        @param account_info:\n        @return:\n        ",
+  "descriptionHtml" : "<pre><code>    账号信息\n    @param account_info:\n    @return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1655416479759,
+      "stop" : 1655416480021,
+      "duration" : 262
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        账号信息\n        @param account_info:\n        @return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ae73285dca16ce6e",
+      "name" : "log",
+      "source" : "ae73285dca16ce6e.txt",
+      "type" : "text/plain",
+      "size" : 481
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Tpshop项目的登录测试"
+  }, {
+    "name" : "story",
+    "value" : "验证登录功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_tpshop_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTpshopLogin"
+  }, {
+    "name" : "host",
+    "value" : "King"
+  }, {
+    "name" : "thread",
+    "value" : "15700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_tpshop_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account_info",
+    "value" : "{'username': 13800138006, 'password': 123456, 'consignee': '测试kingwolf77785', 'phone_num': 13333333335, 'detail_address': '狼胸帝国大厦141414号', 'zipcode': 100000}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b62f27b5344b2d1.json",
+  "parameterValues" : [ "{'username': 13800138006, 'password': 123456, 'consignee': '测试kingwolf77785', 'phone_num': 13333333335, 'detail_address': '狼胸帝国大厦141414号', 'zipcode': 100000}" ]
+}
