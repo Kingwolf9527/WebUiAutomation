@@ -60,5 +60,5 @@ class LoginPage(BaseHandle):
         for ever_tieba_url in total_urls:
             self.open(ever_tieba_url)
             self.click(LoginPage.sign_button)
-        # 退出，重置driver
-        self.quit()
+        # # 退出，重置driver
+        # self.quit()

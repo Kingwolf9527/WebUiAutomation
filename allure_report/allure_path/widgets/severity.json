@@ -1,11 +1,31 @@
 [ {
-  "uid" : "b12f2333e04996d",
-  "name" : "test_login",
+  "uid" : "d6415ce63d6665e1",
+  "name" : "test_address_add[infos0]",
   "time" : {
-    "start" : 1653856115599,
-    "stop" : 1653856279779,
-    "duration" : 164180
+    "start" : 1655416624374,
+    "stop" : 1655416702285,
+    "duration" : 77911
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7b62f27b5344b2d1",
+  "name" : "test_tpshop_login[account_info0]",
+  "time" : {
+    "start" : 1655416893757,
+    "stop" : 1655416931598,
+    "duration" : 37841
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c25cce0d5e533453",
+  "name" : "test_address_delete[infos0]",
+  "time" : {
+    "start" : 1655416832051,
+    "stop" : 1655416893360,
+    "duration" : 61309
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

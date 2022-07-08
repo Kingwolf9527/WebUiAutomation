@@ -71,6 +71,8 @@ class Address(TpshopLoginPage):
         self.input(Address.zipcode_, zipcode)
         self.click(Address.save_button)
         time.sleep(3)
+        # 退出，重置driver
+        self.quit()
         
     
     def delete_address(self, username, password, verify_code):
@@ -90,3 +92,5 @@ class Address(TpshopLoginPage):
         self.delete_before = int(self.get_element_text(self.find_element_highlight(Address.exists_address_num)))
         self.click(Address.delete_address_)
         time.sleep(3)
+        # 退出，重置driver
+        self.quit()

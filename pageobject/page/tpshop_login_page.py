@@ -29,7 +29,7 @@ class TpshopLoginPage(BaseHandle):
         tpshop执行登录操作
         @param username:
         @param password:
-        @param verify_code: 采用万能验证码 2222
+        @param verify_code: 采用万能验证码 2222;
         @return:
         """
         self.maximize()
@@ -39,3 +39,4 @@ class TpshopLoginPage(BaseHandle):
         self.input(TpshopLoginPage.password, password)
         self.input(TpshopLoginPage.verify_code, verify_code)
         self.click(TpshopLoginPage.login_button)
+

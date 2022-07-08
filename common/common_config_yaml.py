@@ -36,10 +36,10 @@ class CommonYaml(object):
             f.truncate()
 
 if __name__ == '__main__':
-    from common.common_file_path import db_config
-    test = CommonYaml(db_config)
+    from common.common_file_path import base_yaml_path
+    test = CommonYaml(base_yaml_path)
     data = test.read_yaml()
     # print(type(data["dbutils_mysql_conf"]["port"]))
     # print(type(data["dbutils_mysql_conf"]["blocking"]))
-    print(data["dbutils_mysql_conf"]["maxconnections"])
+    print(data)
 

@@ -1,8 +1,19 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "9c31a7c82462c0d90c4ddbcad6fba82a",
-    "name" : "测试百度贴吧",
+    "uid" : "13c1addb4fdb6b592cbf80e1ce3ce9d9",
+    "name" : "前台个人中心的地址管理",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "25950c8c73e6d5b104ebeed5008a9e95",
+    "name" : "Tpshop项目的登录测试",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

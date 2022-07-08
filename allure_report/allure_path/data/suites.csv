@@ -1,2 +1,16 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon May 30 04:28:35 CST 2022","Mon May 30 04:31:19 CST 2022","164180","testcase","test_baidutieba_login","TestTiebaLogin","","","test_login",""
+"broken","Fri Jun 17 06:00:32 CST 2022","Fri Jun 17 06:01:33 CST 2022","61309","testcase","test_address_dispose","TestAddressDispose","","","test_address_delete[infos0]","
+        删除地址
+        @param infos:
+        @return:
+        "
+"passed","Fri Jun 17 06:01:33 CST 2022","Fri Jun 17 06:02:11 CST 2022","37841","testcase","test_tpshop_login","TestTpshopLogin","","","test_tpshop_login[account_info0]","
+        账号信息
+        @param account_info:
+        @return:
+        "
+"broken","Fri Jun 17 05:57:04 CST 2022","Fri Jun 17 05:58:22 CST 2022","77911","testcase","test_address_dispose","TestAddressDispose","","","test_address_add[infos0]","
+        新增地址
+        @param infos:
+        @return:
+        "

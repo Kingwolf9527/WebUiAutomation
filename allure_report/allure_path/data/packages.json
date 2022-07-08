@@ -2,25 +2,67 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "testcase.test_baidutieba_login",
+    "name" : "testcase",
     "children" : [ {
-      "name" : "test_login",
-      "uid" : "b12f2333e04996d",
-      "parentUid" : "60aba9bd8bb3b1057ce11cf1eb29ca9b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653856115599,
-        "stop" : 1653856279779,
-        "duration" : 164180
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "name" : "test_address_dispose",
+      "children" : [ {
+        "name" : "test_address_add[infos0]",
+        "uid" : "d6415ce63d6665e1",
+        "parentUid" : "284b049d6cf79c534e8c9c272d798d5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655416624374,
+          "stop" : 1655416702285,
+          "duration" : 77911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 13800138006, 'password': 123456, 'consignee': '测试kingwolf77785', 'phone_num': 13333333335, 'detail_address': '狼胸帝国大厦141414号', 'zipcode': 100000}" ]
+      }, {
+        "name" : "test_address_delete[infos0]",
+        "uid" : "c25cce0d5e533453",
+        "parentUid" : "284b049d6cf79c534e8c9c272d798d5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655416832051,
+          "stop" : 1655416893360,
+          "duration" : 61309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 13800138006, 'password': 123456, 'consignee': '测试kingwolf77785', 'phone_num': 13333333335, 'detail_address': '狼胸帝国大厦141414号', 'zipcode': 100000}" ]
+      } ],
+      "uid" : "284b049d6cf79c534e8c9c272d798d5d"
+    }, {
+      "name" : "test_tpshop_login",
+      "children" : [ {
+        "name" : "test_tpshop_login[account_info0]",
+        "uid" : "7b62f27b5344b2d1",
+        "parentUid" : "3c78c46857f5b4647fafbd06343c5696",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655416893757,
+          "stop" : 1655416931598,
+          "duration" : 37841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 13800138006, 'password': 123456, 'consignee': '测试kingwolf77785', 'phone_num': 13333333335, 'detail_address': '狼胸帝国大厦141414号', 'zipcode': 100000}" ]
+      } ],
+      "uid" : "3c78c46857f5b4647fafbd06343c5696"
     } ],
-    "uid" : "testcase.test_baidutieba_login"
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
   } ]
 }

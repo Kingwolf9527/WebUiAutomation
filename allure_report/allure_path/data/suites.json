@@ -4,18 +4,60 @@
   "children" : [ {
     "name" : "testcase",
     "children" : [ {
-      "name" : "test_baidutieba_login",
+      "name" : "test_address_dispose",
       "children" : [ {
-        "name" : "TestTiebaLogin",
+        "name" : "TestAddressDispose",
         "children" : [ {
-          "name" : "test_login",
-          "uid" : "b12f2333e04996d",
-          "parentUid" : "be0ff6506844ce2594579181e57a850c",
+          "name" : "test_address_add[infos0]",
+          "uid" : "d6415ce63d6665e1",
+          "parentUid" : "cd1179be5b8e66c7f51f4daa1d88cf92",
+          "status" : "broken",
+          "time" : {
+            "start" : 1655416624374,
+            "stop" : 1655416702285,
+            "duration" : 77911
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'username': 13800138006, 'password': 123456, 'consignee': '测试kingwolf77785', 'phone_num': 13333333335, 'detail_address': '狼胸帝国大厦141414号', 'zipcode': 100000}" ]
+        }, {
+          "name" : "test_address_delete[infos0]",
+          "uid" : "c25cce0d5e533453",
+          "parentUid" : "cd1179be5b8e66c7f51f4daa1d88cf92",
+          "status" : "broken",
+          "time" : {
+            "start" : 1655416832051,
+            "stop" : 1655416893360,
+            "duration" : 61309
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'username': 13800138006, 'password': 123456, 'consignee': '测试kingwolf77785', 'phone_num': 13333333335, 'detail_address': '狼胸帝国大厦141414号', 'zipcode': 100000}" ]
+        } ],
+        "uid" : "cd1179be5b8e66c7f51f4daa1d88cf92"
+      } ],
+      "uid" : "803435777df9ca063a9125158bb6a338"
+    }, {
+      "name" : "test_tpshop_login",
+      "children" : [ {
+        "name" : "TestTpshopLogin",
+        "children" : [ {
+          "name" : "test_tpshop_login[account_info0]",
+          "uid" : "7b62f27b5344b2d1",
+          "parentUid" : "c0d5e1830151da449c3fa8b03345db83",
           "status" : "passed",
           "time" : {
-            "start" : 1653856115599,
-            "stop" : 1653856279779,
-            "duration" : 164180
+            "start" : 1655416893757,
+            "stop" : 1655416931598,
+            "duration" : 37841
           },
           "flaky" : false,
           "newFailed" : false,
@@ -23,11 +65,11 @@
           "newBroken" : false,
           "retriesCount" : 0,
           "retriesStatusChange" : false,
-          "parameters" : [ ]
+          "parameters" : [ "{'username': 13800138006, 'password': 123456, 'consignee': '测试kingwolf77785', 'phone_num': 13333333335, 'detail_address': '狼胸帝国大厦141414号', 'zipcode': 100000}" ]
         } ],
-        "uid" : "be0ff6506844ce2594579181e57a850c"
+        "uid" : "c0d5e1830151da449c3fa8b03345db83"
       } ],
-      "uid" : "86c8b94ceaa887d8136c96d81a92e37b"
+      "uid" : "171546053ded57a577aa1eb2ef9f1625"
     } ],
     "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
   } ]

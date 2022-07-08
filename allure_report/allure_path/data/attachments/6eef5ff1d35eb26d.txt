@@ -1,1 +1,0 @@
-INFO     root:common_driver.py:45 -------当前浏览器是：chrome-------

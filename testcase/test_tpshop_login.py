@@ -21,18 +21,22 @@ class TestTpshopLogin(object):
     
     @allure.story("验证登录功能")
     @pytest.mark.parametrize("account_info", CommonYaml(foreground_infos).read_yaml())
-    def test_tpshop_login(self, account_info):
+    def test_tpshop_login(self, account_info, get_driver):
         """
         账号信息
         @param account_info:
+        @param get_driver:
         @return:
         """
-        dd = TpshopLoginPage()
+        logger.info(f"--------正在执行登录操作！ --------")
+        dd = TpshopLoginPage(get_driver)
         dd.tpshop_login(account_info['username'], account_info['password'], '2222')
-        assert dd.is_displayed(dd.find_element_highlight(dd.exchanges)) == True
-        logger.info(f"-------- 当前页面的‘交易中心’元素是否显示：{dd.is_displayed(dd.find_element_highlight(dd.exchanges))} --------")
+        assert dd.is_displayed(dd.exchanges) == True
+        logger.info(f"-------- 当前页面的‘交易中心’元素是否显示：{dd.is_displayed(dd.exchanges)} --------")
         assert dd.get_current_url() == dd.login_success_url
         logger.info(f"-------- 当前页面的URL为：{dd.get_current_url()} --------")
+        logger.info(f"--------登录成功！ --------")
+
 
 
 if __name__ == '__main__':

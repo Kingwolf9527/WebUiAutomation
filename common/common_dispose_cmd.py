@@ -26,28 +26,10 @@ class DisposeCommand(object):
         output = stdout.decode(get_encoding)
         return output
 
-    @classmethod
-    def get_browser_version(cls, browser):
-        """
-        获取指定浏览器的主版本
-        @param browser:
-        @return:
-        """
-        if browser.lower() == "chrome":
-            key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Google\Chrome\BLBeacon")
-            version = winreg.QueryValueEx(key, "version")[0]
-            return version.split(".")[0]
 
-        if browser.lower() == "edge":
-            key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Edge\BLBeacon")
-            version =  winreg.QueryValueEx(key, "version")[0]
-            return version.split(".")[0]
 
 
 if __name__ == '__main__':
     cmd = 'netstat -ano'
     dd = DisposeCommand.dispose_cmdline(cmd)
     print(dd)
-
-    # dd = DisposeCommand.get_browser_version(browser="chrome")
-    # print(dd)

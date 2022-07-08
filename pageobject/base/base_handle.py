@@ -11,10 +11,10 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.action_chains import ActionChains as AC
 from common.common_file_path import image_dir
 from common.common_log import CommonLog
-from pageobject.base.base_view import BaseView
+from ..base.base_view import BaseView
 
 class BaseHandle(BaseView):
-
+    
     def open(self, url):
         """
         打开指定URL
@@ -25,9 +25,11 @@ class BaseHandle(BaseView):
 
     def quit(self):
         """
+        退出窗口
         @return:
         """
-        self._base.quit_driver()
+        # self._base.quit_driver()
+        self.driver.quit()
 
     def maximize(self):
         """
@@ -63,6 +65,8 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
+        if isinstance(element, tuple):
+            return self.find_element_highlight(element).location
         return element.location
 
     def get_size(self, element):
@@ -71,6 +75,8 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
+        if isinstance(element, tuple):
+            return self.find_element_highlight(element).size
         return element.size
 
     def get_page_source(self):
@@ -87,6 +93,8 @@ class BaseHandle(BaseView):
         @param name:
         @return:
         """
+        if isinstance(element, tuple):
+            return self.find_element_highlight(element).get_attribute(name)
         return element.get_attribute(name)
 
     def get_element_text(self, element):
@@ -95,6 +103,8 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
+        if isinstance(element, tuple):
+            return self.find_element_highlight(element).text
         return element.text
 
     def get_current_url(self):
@@ -136,7 +146,7 @@ class BaseHandle(BaseView):
 
     def iframe_out(self):
         """
-        退出当前iframe，对到top层
+        退出当前iframe，回到top层
         @return:
         """
         self.driver.switch_to.default_content()
@@ -162,6 +172,8 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
+        if isinstance(element, tuple):
+            return self.find_element_highlight(element).is_selected()
         return element.is_selected()
 
     def is_displayed(self, element):
@@ -170,6 +182,8 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
+        if isinstance(element, tuple):
+            return self.find_element_highlight(element).is_displayed()
         return element.is_displayed()
 
     def is_enabled(self, element):
@@ -178,6 +192,8 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
+        if isinstance(element, tuple):
+            return self.find_element_highlight(element).is_enabled()
         return element.is_enabled()
 
     def save_screenshot(self, img_name):
@@ -206,5 +222,5 @@ class BaseHandle(BaseView):
 
 
 if __name__ == '__main__':
-    d = BaseHandle()
+    d = BaseView()
     d.open("https://tieba.baidu.com/")

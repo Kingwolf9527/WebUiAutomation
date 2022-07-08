@@ -24,25 +24,29 @@ allure_json_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(
 allure_html_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'allure_report', 'allure_path')
 
 
+# 基础yaml配置路径
+base_yaml_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 # 配置文件路径
-base_config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "data", "base.yaml")
+base_config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "base.yaml")
 
 # 数据库yaml格式配置文件
-db_config = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "config", "db_config.yaml")
+db_config = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config", "db_config.yaml")
 
 # 普通用户账号数据
-foreground_infos = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "data", "foreground.yaml")
+foreground_infos = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "foreground.yaml")
 
 
 # 截图保存文件路径
-image_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))), "images")
+image_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "images")
 
 
 # 默认Excel文件的路径
-default_excel_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__name__))),
+default_excel_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                                   "data", "excel_data.xlsx")
 
 # 默认sheet_name
 default_sheet_name = "users"
+
+print(base_yaml_path)
 

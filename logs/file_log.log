@@ -1,12 +1,16 @@
-2022-06-14 03:58:02,635---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 04:03:48,345---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 04:07:00,480---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 04:11:18,282---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 04:27:30,932---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 04:33:38,674---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 04:34:32,389---[INFO]---[root]---[test_address_dispose.py---test_address_add---30]----------- 新增的地址完毕！ --------
-2022-06-14 05:12:13,558---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 05:13:09,320---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 05:13:32,372---[INFO]---[root]---[common_driver.py---get_driver---42]----------当前浏览器是：chrome-------
-2022-06-14 05:14:18,695---[INFO]---[root]---[test_address_dispose.py---test_address_delete---39]----------- 删除地址完毕！ --------
-2022-06-14 05:14:18,695---[INFO]---[root]---[test_address_dispose.py---test_address_delete---40]----------- 最新保存的地址数量为：4条 --------
+2022-07-07 04:53:32,807---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---30]-----------正在执行登录操作！ --------
+2022-07-07 04:53:32,810---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-07 04:54:19,827---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---34]----------- 当前页面的‘交易中心’元素是否显示：True --------
+2022-07-07 04:54:19,837---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---36]----------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
+2022-07-07 04:54:19,838---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---37]-----------登录成功！ --------
+2022-07-07 04:55:54,570---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-07 04:55:57,175---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---30]-----------正在执行登录操作！ --------
+2022-07-07 04:56:34,803---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---34]----------- 当前页面的‘交易中心’元素是否显示：True --------
+2022-07-07 04:56:34,814---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---36]----------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
+2022-07-07 04:56:34,814---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---37]-----------登录成功！ --------
+2022-07-07 04:57:32,809---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-07 04:57:35,076---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---30]-----------正在执行登录操作！ --------
+2022-07-07 04:58:12,491---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---34]----------- 当前页面的‘交易中心’元素是否显示：True --------
+2022-07-07 04:58:12,501---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---36]----------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
+2022-07-07 04:58:12,501---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---37]-----------登录成功！ --------
+2022-07-07 04:58:15,234---[INFO]---[root]---[common_driver.py---quit_driver---63]----------重新置空driver-------

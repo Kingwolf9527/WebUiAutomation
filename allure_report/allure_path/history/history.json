@@ -1,5 +1,5 @@
 {
-  "6e999e2f730f163f636855db4d0ecaa4" : {
+  "37d66318649c3dab5285721059de7a1b" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +9,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b12f2333e04996d",
+      "uid" : "7b62f27b5344b2d1",
       "status" : "passed",
       "time" : {
-        "start" : 1653856115599,
-        "stop" : 1653856279779,
-        "duration" : 164180
+        "start" : 1655416893757,
+        "stop" : 1655416931598,
+        "duration" : 37841
+      }
+    } ]
+  },
+  "abd31292c6f967d8b0b9150e4ede2f9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d6415ce63d6665e1",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8531): Max retries exceeded with url: /session/4021b3d213669145ba7ed896849923f1/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DCA5FB8D08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1655416624374,
+        "stop" : 1655416702285,
+        "duration" : 77911
+      }
+    } ]
+  },
+  "f14826754a098b014c12fce1df97e105" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c25cce0d5e533453",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8709): Max retries exceeded with url: /session/bb9beea128e319ece46522518c125a92/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DCA605E308>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1655416832051,
+        "stop" : 1655416893360,
+        "duration" : 61309
       }
     } ]
   }

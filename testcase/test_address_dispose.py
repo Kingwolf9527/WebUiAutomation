@@ -22,13 +22,14 @@ class TestAddressDispose(object):
     
     @allure.story("新增地址")
     @pytest.mark.parametrize("infos", CommonYaml(foreground_infos).read_yaml())
-    def test_address_add(self, infos):
+    def test_address_add(self, infos, get_driver):
         """
         新增地址
         @param infos:
         @return:
         """
-        dd = Address()
+        logger.info(f"--------正在执行新增收货地址操作！ --------")
+        dd = Address(get_driver)
         dd.add_address(username=infos["username"], password=infos["password"], verify_code="2222",
                        consignee=infos["consignee"], phone_num=infos["phone_num"],
                        detail_address=infos["detail_address"],
@@ -40,15 +41,17 @@ class TestAddressDispose(object):
     
     @allure.story("删除地址")
     @pytest.mark.parametrize("infos", CommonYaml(foreground_infos).read_yaml())
-    def test_address_delete(self, infos):
+    def test_address_delete(self, infos, get_driver):
         """
         删除地址
         @param infos:
+        @param get_driver:
         @return:
         """
-        dd = Address()
+        logger.info(f"--------正在执行删除收货地址操作！ --------")
+        dd = Address(get_driver)
         dd.delete_address(username=infos["username"], password=infos["password"], verify_code="2222")
-        delete_after = int(dd.get_element_text(dd.find_element_highlight(dd.exists_address_num)))
+        delete_after = int(dd.get_element_text(dd.exists_address_num))
         assert delete_after == dd.delete_before - 1
         logger.info(f"-------- 删除地址完毕！ --------")
         logger.info(f"-------- 最新保存的地址数量为：{delete_after}条 --------")

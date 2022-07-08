@@ -13,11 +13,15 @@ from pageobject.page.login_page import LoginPage
 class TestTiebaLogin(object):
     
     @allure.story("测试百度贴吧自动登录以及自动签到功能")
-    def test_login(self):
+    def test_login(self, get_driver):
+        """
+        @param get_driver:
+        @return:
+        """
         with allure.step("登录处理"):
-            d = LoginPage()
+            d = LoginPage(get_driver)
         with allure.step("签到处理"):
-            d.go_sign("1069645896@qq.com", "922521dfxs5619")
+            d.go_sign("xxxx@qq.com", "xxxx")
 
 
 if __name__ == '__main__':
