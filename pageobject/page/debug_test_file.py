@@ -7,56 +7,65 @@
 import sys
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
-import time
 from selenium.webdriver.common.by import By
 from pageobject.page.tpshop_login_page import TpshopLoginPage
 
 class Debug_(TpshopLoginPage):
     
-    # 悬停定位进入地址管理
-    account_setting = (By.XPATH, '//div[@class="u-dt"]/span')
-    shipping_address = (By.LINK_TEXT, "收货地址")
-    # 已经存在的地址数量
-    exists_address_num = (By.XPATH, '//p[@class="gp_num2"]/em[1]')
-    # 新增地址
-    add_address_link = (By.LINK_TEXT, "增加新地址")
-    consignee_ = (By.NAME, "consignee")
-    phone = (By.NAME, "mobile")
-    province = (By.NAME, "province")
-    city = (By.NAME, "city")
-    district = (By.NAME, "district")
-    town = (By.NAME, "twon")
-    detail_address_ = (By.NAME, "address")
-    zipcode_ = (By.NAME, "zipcode")
-    # 保存
-    save_button = (By.ID, "address_submit")
+    search_box = (By.XPATH, '//input[@class="search_usercenter_text"]')
+    search_btn = (By.XPATH, '//a[@class="search_usercenter_btn"]')
+    search_text = "欧式陶瓷"
+    add_to_cart = (By.XPATH, '//div[@class="p-btn"]/a')
+    join_cart = (By.XPATH, '//a[@class="addcar buy_button"]')
+    # 嵌套iframe
+    go_settlement_iframe = (By.XPATH, '//div[@class="layui-layer-content"]/iframe')
+    go_settlement = (By.XPATH, '//a[contains(@class, "ui-button-122")]')
+    # 购物车页面结算
+    pay_total = (By.XPATH, '//a[@class="paytotal"]')
+    # 这一步处理test环境支付弹窗
+    # 商品总金额(例如：￥0.02)--处理数字
+    total_price = (By.XPATH, '//div[@class="list"][1]/em')
+    # 勾选使用账户余额
+    use_balance = (By.XPATH, '//input[@id="user_money_checkbox"]')
+    # 输入余额
+    input_balance = (By.XPATH, '//input[@id="user_money"]')
+    # 获取当前余额
+    current_balance = (By.XPATH, '//p[@class="item"][2]//span')
+    # 支付密码(6666aaaa)
+    pay_pwd = (By.XPATH, '//p[@class="item"][4]//input')
+    # 提交订单
+    summit_order = (By.XPATH, '//button[@id="submit_order"]')
     
-
-    def add_address_personal(self):
+    def bvt_test(self):
         
-        # 悬停进入地址管理
-        self.mouse().move_to_element(self.find_element_highlight(Debug_.account_setting)).perform()
-        self.click(Debug_.shipping_address)
-        # 先获取已经保存的地址数量
-        self.add_before = int(self.get_element_text(self.find_element_highlight(Debug_.exists_address_num)))
-        # 新增地址
-        self.click(Debug_.add_address_link)
-        self.input(Debug_.consignee_, 'king2')
-        self.input(Debug_.phone, '13822272222')
-        # 下拉框处理
-        self.select_box(Debug_.province).select_by_index(19)
-        time.sleep(2)
-        self.select_box(Debug_.city).select_by_index(4)
-        time.sleep(2)
-        self.select_box(Debug_.district).select_by_index(2)
-        time.sleep(2)
-        self.select_box(Debug_.town).select_by_index(3)
-        time.sleep(2)
-        # 详细地址以及邮编
-        self.input(Debug_.detail_address_, '吉大吉利大道7777777号')
-        self.input(Debug_.zipcode_, '519000')
-        self.click(Debug_.save_button)
-        time.sleep(3)
+        self.input(Debug_.search_box, Debug_.search_text)
+        self.click(Debug_.search_btn)
+        self.click(Debug_.add_to_cart)
+        self.click(Debug_.join_cart)
+        # 切换iframe
+        self.iframe_into(Debug_.go_settlement_iframe)
+        self.click(Debug_.go_settlement)
+        # 退出iframe
+        self.iframe_out()
+        # 购物车页面
+        self.click(Debug_.pay_total)
+        # 处理alert弹窗
+        self.switchto_alert().accept()
+        # 获取总金额以及输入积分
+        total_money = self.get_element_text(Debug_.total_price)
+        pay_num = total_money.split("￥")[-1]
+        self.click(Debug_.use_balance)
+        self.input(Debug_.input_balance, pay_num)
+        # 获取可用余额
+        current_balan = self.get_element_text(Debug_.current_balance)
+        # 输入支付密码
+        self.input(Debug_.pay_pwd, "6666aaaa")
+        # 提交订单
+        self.click(Debug_.summit_order)
+        
+        
+        
+    
         
 if __name__ == '__main__':
     pass

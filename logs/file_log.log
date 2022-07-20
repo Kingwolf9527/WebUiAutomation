@@ -1,16 +1,32 @@
-2022-07-07 04:53:32,807---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---30]-----------正在执行登录操作！ --------
-2022-07-07 04:53:32,810---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-07 04:54:19,827---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---34]----------- 当前页面的‘交易中心’元素是否显示：True --------
-2022-07-07 04:54:19,837---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---36]----------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
-2022-07-07 04:54:19,838---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---37]-----------登录成功！ --------
-2022-07-07 04:55:54,570---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-07 04:55:57,175---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---30]-----------正在执行登录操作！ --------
-2022-07-07 04:56:34,803---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---34]----------- 当前页面的‘交易中心’元素是否显示：True --------
-2022-07-07 04:56:34,814---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---36]----------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
-2022-07-07 04:56:34,814---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---37]-----------登录成功！ --------
-2022-07-07 04:57:32,809---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-07 04:57:35,076---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---30]-----------正在执行登录操作！ --------
-2022-07-07 04:58:12,491---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---34]----------- 当前页面的‘交易中心’元素是否显示：True --------
-2022-07-07 04:58:12,501---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---36]----------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
-2022-07-07 04:58:12,501---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---37]-----------登录成功！ --------
-2022-07-07 04:58:15,234---[INFO]---[root]---[common_driver.py---quit_driver---63]----------重新置空driver-------
+2022-07-20 00:36:48,002---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 00:36:50,140---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 00:43:51,240---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 00:43:54,551---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 00:44:51,520---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
+2022-07-20 01:18:54,574---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:18:56,596---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 01:19:54,989---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
+2022-07-20 01:22:53,205---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:22:55,597---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 01:23:50,733---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
+2022-07-20 01:32:55,133---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:32:57,340---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 01:34:52,726---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:34:55,007---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 01:36:48,189---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:36:50,053---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 01:39:54,356---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
+2022-07-20 01:41:54,902---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:41:57,222---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 01:42:53,415---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
+2022-07-20 01:44:42,820---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:44:44,894---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 01:46:52,280---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:46:53,984---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 01:49:17,265---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 01:49:19,367---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 04:33:30,622---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 04:33:32,949---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 04:38:50,823---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-20 04:38:52,815---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-20 04:39:50,662---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------

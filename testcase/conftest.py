@@ -51,6 +51,6 @@ logger = CommonLog.get_logger()
 def get_driver():
     driver = CommonDriver().get_driver()
     yield driver
-    CommonDriver().quit_driver()
+    # CommonDriver().quit_driver()
     
     

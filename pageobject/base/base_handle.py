@@ -28,7 +28,6 @@ class BaseHandle(BaseView):
         退出窗口
         @return:
         """
-        # self._base.quit_driver()
         self.driver.quit()
 
     def maximize(self):
@@ -135,6 +134,13 @@ class BaseHandle(BaseView):
         @return:
         """
         self.driver.switch_to.window(window_name)
+        
+    def switchto_alert(self):
+        """
+        切换alert弹窗
+        @return:
+        """
+        self.driver.switch_to.alert
 
     def iframe_into(self, iframe):
         """
@@ -142,7 +148,10 @@ class BaseHandle(BaseView):
         @param iframe:  iframe类型可以为name，id，或者xpath，tag_name定位到的iframe元素
         @return:
         """
-        self.driver.switch_to.frame(iframe)
+        if isinstance(iframe, str):
+            self.driver.switch_to.frame(iframe)
+        else:
+            self.driver.switch_to.frame(self.find_element_highlight(iframe))
 
     def iframe_out(self):
         """

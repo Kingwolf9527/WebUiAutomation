@@ -1,0 +1,67 @@
+2022-07-19 03:49:26,348---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 03:49:27,145---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒煙測試操作！ --------
+2022-07-19 03:49:29,650---[INFO]---[root]---[common_driver.py---quit_driver---63]----------重新置空driver-------
+2022-07-19 03:49:31,790---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 03:49:32,340---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒煙測試操作！ --------
+2022-07-19 03:50:46,597---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 03:50:48,754---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:51:34,480---[INFO]---[root]---[common_driver.py---quit_driver---63]----------重新置空driver-------
+2022-07-19 03:51:36,598---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 03:51:38,425---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:52:22,236---[INFO]---[root]---[common_driver.py---quit_driver---63]----------重新置空driver-------
+2022-07-19 03:52:24,400---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 03:52:26,455---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:53:20,626---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 03:53:22,500---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:54:04,653---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:54:06,792---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:56:51,703---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 03:56:53,941---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:58:20,939---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:58:23,042---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 03:59:51,635---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 03:59:53,970---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:04:18,048---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 04:04:19,948---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:20:13,749---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 04:20:15,857---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:21:04,483---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:21:06,746---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:21:18,757---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 04:21:21,135---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:22:08,236---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:22:10,379---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:23:20,020---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 04:23:22,072---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:24:10,138---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:24:12,314---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:25:43,636---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 04:25:45,798---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:28:42,644---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 04:28:44,851---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 15:47:19,501---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 15:47:22,597---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 15:48:22,415---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 15:48:24,567---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 21:07:57,681---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 21:07:59,760---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 21:09:09,502---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 21:09:11,662---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:10:36,864---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 23:10:40,582---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:11:39,472---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:11:41,646---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:15:21,948---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 23:15:24,114---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:26:20,078---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 23:26:22,430---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:27:55,812---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:27:57,969---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:29:36,681---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 23:29:38,702---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:33:27,506---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 23:33:29,515---[INFO]---[root]---[test_bvt.py---test_address_add---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:41:15,046---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 23:41:17,291---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-19 23:57:24,440---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-19 23:57:26,449---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
