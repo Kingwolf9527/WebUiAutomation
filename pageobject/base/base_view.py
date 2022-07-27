@@ -8,6 +8,10 @@ import sys
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
 from selenium.webdriver.support.wait import WebDriverWait
+from common.common_log import CommonLog
+
+logger = CommonLog().get_logger()
+
 
 class BaseView(object):
     
@@ -27,6 +31,7 @@ class BaseView(object):
         @param poll_frequency:
         @return:
         """
+        logger.info(f"--------当前操作为：find_element，定位的元素为：{loc} --------")
         return WebDriverWait(self.driver,
                              timeout=timeout,
                              poll_frequency=poll_frequency).until(lambda x: x.find_element(*loc))
@@ -40,6 +45,7 @@ class BaseView(object):
         @param poll_frequency:
         @return:
         """
+        logger.info(f"--------当前操作为：find_elements，定位的元素为：{loc} --------")
         return WebDriverWait(self.driver,
                              timeout=timeout,
                              poll_frequency=poll_frequency).until(lambda x: x.find_elements(*loc))

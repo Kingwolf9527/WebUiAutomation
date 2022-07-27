@@ -12,6 +12,10 @@ from selenium.webdriver.common.action_chains import ActionChains as AC
 from common.common_file_path import image_dir
 from common.common_log import CommonLog
 from ..base.base_view import BaseView
+from common.common_log import CommonLog
+
+logger = CommonLog().get_logger()
+
 
 class BaseHandle(BaseView):
     
@@ -21,6 +25,7 @@ class BaseHandle(BaseView):
         @param url:
         @return:
         """
+        logger.info(f"当前操作为：open，打开的URL为：{url}")
         self.driver.get(url)
 
     def quit(self):
@@ -28,6 +33,7 @@ class BaseHandle(BaseView):
         退出窗口
         @return:
         """
+        logger.info("当前的操作为：quit")
         self.driver.quit()
 
     def maximize(self):
@@ -35,6 +41,7 @@ class BaseHandle(BaseView):
         窗口最大化
         @return:
         """
+        logger.info("当前的操作为：maximize")
         self.driver.maximize_window()
 
     def click(self, loc):
@@ -43,6 +50,7 @@ class BaseHandle(BaseView):
         @param loc:
         @return:
         """
+        logger.info(f"当前的操作为：click，点击的元素为：{loc}")
         self.find_element_highlight(loc).click()
 
     def input(self, loc, value):
@@ -52,6 +60,7 @@ class BaseHandle(BaseView):
         @param value:
         @return:
         """
+        logger.info(f"当前的操作为：input，输入的值为：{value}")
         ele = self.find_element_highlight(loc)
         # 先清空
         ele.clear()
@@ -65,7 +74,9 @@ class BaseHandle(BaseView):
         @return:
         """
         if isinstance(element, tuple):
+            logger.info(f"当前的操作为：get_location，获取的元素坐标为：{self.find_element_highlight(element).location}")
             return self.find_element_highlight(element).location
+        logger.info(f"当前的操作为：get_location，获取的元素坐标为：{element.location}")
         return element.location
 
     def get_size(self, element):
@@ -75,7 +86,9 @@ class BaseHandle(BaseView):
         @return:
         """
         if isinstance(element, tuple):
+            logger.info(f"当前的操作为：get_size，获取的元素坐标为：{self.find_element_highlight(element).size}")
             return self.find_element_highlight(element).size
+        logger.info(f"当前的操作为：get_size，获取的元素坐标为：{element.size}")
         return element.size
 
     def get_page_source(self):
@@ -83,6 +96,7 @@ class BaseHandle(BaseView):
         获取页面源代码
         @return:
         """
+        logger.info("当前操作为：get_page_source，获取当前页面的源代码！")
         return self.driver.page_source
 
     def get_attribute(self, element, name):
@@ -93,7 +107,9 @@ class BaseHandle(BaseView):
         @return:
         """
         if isinstance(element, tuple):
+            logger.info(f"当前的操作为：get_attribute，获取的指定属性值为：{self.find_element_highlight(element).get_attribute(name)}")
             return self.find_element_highlight(element).get_attribute(name)
+        logger.info(f"当前的操作为：get_attribute，获取的指定属性值为：{element.get_attribute(name)}")
         return element.get_attribute(name)
 
     def get_element_text(self, element):
@@ -103,7 +119,9 @@ class BaseHandle(BaseView):
         @return:
         """
         if isinstance(element, tuple):
+            logger.info(f"当前的操作为：get_element_text，获取的元素的文本值为：{self.find_element_highlight(element).text}")
             return self.find_element_highlight(element).text
+        logger.info(f"当前的操作为：get_element_text，获取的元素的文本值为：{element.text}")
         return element.text
 
     def get_current_url(self):
@@ -111,6 +129,7 @@ class BaseHandle(BaseView):
         获取当前页面URL
         @return:
         """
+        logger.info(f"当前操作为：get_current_url，获取到当前URL为：{self.driver.current_url}")
         return self.driver.current_url
 
     def get_current_window(self):
@@ -118,6 +137,7 @@ class BaseHandle(BaseView):
         获取当前页面句柄
         @return:
         """
+        logger.info(f"当前操作为：get_current_window，获取到当前句柄为：{self.driver.current_window_handle}")
         return self.driver.current_window_handle
 
     def get_windows(self):
@@ -133,6 +153,7 @@ class BaseHandle(BaseView):
         @param window_name:
         @return:
         """
+        logger.info(f"当前操作为：window_into，切换的句柄为：{window_name}")
         self.driver.switch_to.window(window_name)
         
     def switchto_alert(self):
@@ -150,7 +171,9 @@ class BaseHandle(BaseView):
         """
         if isinstance(iframe, str):
             self.driver.switch_to.frame(iframe)
+            logger.info(f"当前操作为：iframe_into，页面进行iframe切换，当前iframe名称或者id为：{iframe}")
         else:
+            logger.info(f"当前操作为：iframe_into，页面进行iframe切换，当前iframe元素为：{self.find_element_highlight(iframe)}")
             self.driver.switch_to.frame(self.find_element_highlight(iframe))
 
     def iframe_out(self):
@@ -158,6 +181,7 @@ class BaseHandle(BaseView):
         退出当前iframe，回到top层
         @return:
         """
+        logger.info(f"当前操作为：iframe_out，页面退出iframe，返回top层！")
         self.driver.switch_to.default_content()
 
     def select_box(self, loc):
@@ -166,6 +190,7 @@ class BaseHandle(BaseView):
         @param loc:
         @return:
         """
+        logger.info("当前操作为：select_box，select标签下的处理！")
         return Select(self.find_element_highlight(loc))
 
     def mouse(self):
@@ -173,6 +198,7 @@ class BaseHandle(BaseView):
         鼠标处理
         @return:
         """
+        logger.info("当前操作为：mouse，鼠标相关操作的处理！")
         return AC(self.driver)
 
     def is_selected(self, element):
@@ -182,7 +208,9 @@ class BaseHandle(BaseView):
         @return:
         """
         if isinstance(element, tuple):
+            logger.info(f"当前操作为：is_selected，当前元素：{self.find_element_highlight(element)}已经被选中！")
             return self.find_element_highlight(element).is_selected()
+        logger.info(f"当前操作为：is_selected，当前元素：{element}已经被选中！")
         return element.is_selected()
 
     def is_displayed(self, element):
@@ -192,7 +220,9 @@ class BaseHandle(BaseView):
         @return:
         """
         if isinstance(element, tuple):
+            logger.info(f"当前操作为：is_displayed，当前元素：{self.find_element_highlight(element)}已经显示！")
             return self.find_element_highlight(element).is_displayed()
+        logger.info(f"当前操作为：is_displayed，当前元素：{element}已经显示！")
         return element.is_displayed()
 
     def is_enabled(self, element):
@@ -202,7 +232,9 @@ class BaseHandle(BaseView):
         @return:
         """
         if isinstance(element, tuple):
+            logger.info(f"当前操作为：is_enabled，当前元素：{self.find_element_highlight(element)}可以被使用！")
             return self.find_element_highlight(element).is_enabled()
+        logger.info(f"当前操作为：is_enabled，当前元素：{element}可以被使用！")
         return element.is_enabled()
 
     def save_screenshot(self, img_name):

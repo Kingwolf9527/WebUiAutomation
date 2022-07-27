@@ -1,32 +1,45 @@
-2022-07-20 00:36:48,002---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 00:36:50,140---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 00:43:51,240---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 00:43:54,551---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 00:44:51,520---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
-2022-07-20 01:18:54,574---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:18:56,596---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 01:19:54,989---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
-2022-07-20 01:22:53,205---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:22:55,597---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 01:23:50,733---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
-2022-07-20 01:32:55,133---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:32:57,340---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 01:34:52,726---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:34:55,007---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 01:36:48,189---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:36:50,053---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 01:39:54,356---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
-2022-07-20 01:41:54,902---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:41:57,222---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 01:42:53,415---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
-2022-07-20 01:44:42,820---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:44:44,894---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 01:46:52,280---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:46:53,984---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 01:49:17,265---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 01:49:19,367---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 04:33:30,622---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 04:33:32,949---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 04:38:50,823---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-07-20 04:38:52,815---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
-2022-07-20 04:39:50,662---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
+2022-07-27 05:49:27,552---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-07-27 05:49:31,376---[INFO]---[root]---[test_bvt.py---test_bvt---31]-----------正在执行冒烟試操作！ --------
+2022-07-27 05:49:31,377---[INFO]---[root]---[base_handle.py---maximize---44]---当前的操作为：maximize
+2022-07-27 05:49:31,528---[INFO]---[root]---[base_handle.py---open---28]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090/
+2022-07-27 05:50:12,264---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('link text', '登录')
+2022-07-27 05:50:12,264---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('link text', '登录') --------
+2022-07-27 05:50:12,898---[INFO]---[root]---[base_handle.py---input---63]---当前的操作为：input，输入的值为：13800138006
+2022-07-27 05:50:12,898---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('name', 'username') --------
+2022-07-27 05:50:13,065---[INFO]---[root]---[base_handle.py---input---63]---当前的操作为：input，输入的值为：123456
+2022-07-27 05:50:13,066---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('name', 'password') --------
+2022-07-27 05:50:13,256---[INFO]---[root]---[base_handle.py---input---63]---当前的操作为：input，输入的值为：2222
+2022-07-27 05:50:13,256---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('name', 'verify_code') --------
+2022-07-27 05:50:13,395---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('name', 'sbtbutton')
+2022-07-27 05:50:13,395---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('name', 'sbtbutton') --------
+2022-07-27 05:50:13,495---[INFO]---[root]---[base_handle.py---input---63]---当前的操作为：input，输入的值为：欧式陶瓷
+2022-07-27 05:50:13,495---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//input[@class="search_usercenter_text"]') --------
+2022-07-27 05:50:15,525---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('xpath', '//a[@class="search_usercenter_btn"]')
+2022-07-27 05:50:15,526---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//a[@class="search_usercenter_btn"]') --------
+2022-07-27 05:50:17,474---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('xpath', '//div[@class="p-btn"]/a')
+2022-07-27 05:50:17,474---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//div[@class="p-btn"]/a') --------
+2022-07-27 05:50:17,552---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('xpath', '//a[@class="addcar buy_button"]')
+2022-07-27 05:50:17,553---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//a[@class="addcar buy_button"]') --------
+2022-07-27 05:50:19,910---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//div[@class="layui-layer-content"]/iframe') --------
+2022-07-27 05:50:20,462---[INFO]---[root]---[base_handle.py---iframe_into---176]---当前操作为：iframe_into，页面进行iframe切换，当前iframe元素为：<selenium.webdriver.remote.webelement.WebElement (session="c4da7277131ca458d59d57e18b9448d0", element="b20bf5a4-48af-466b-9a50-49f981bfba4a")>
+2022-07-27 05:50:20,462---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//div[@class="layui-layer-content"]/iframe') --------
+2022-07-27 05:50:20,511---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('xpath', '//a[contains(@class, "ui-button-122")]')
+2022-07-27 05:50:20,512---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//a[contains(@class, "ui-button-122")]') --------
+2022-07-27 05:50:21,039---[INFO]---[root]---[base_handle.py---iframe_out---184]---当前操作为：iframe_out，页面退出iframe，返回top层！
+2022-07-27 05:50:23,324---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//div[contains(@class,"column t-sum sumpri")]/span') --------
+2022-07-27 05:50:23,402---[INFO]---[root]---[base_handle.py---get_element_text---122]---当前的操作为：get_element_text，获取的元素的文本值为：￥0.02
+2022-07-27 05:50:23,403---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//div[contains(@class,"column t-sum sumpri")]/span') --------
+2022-07-27 05:50:23,426---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('xpath', '//a[@class="paytotal"]')
+2022-07-27 05:50:23,426---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//a[@class="paytotal"]') --------
+2022-07-27 05:50:31,393---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('xpath', '//input[@id="user_money_checkbox"]')
+2022-07-27 05:50:31,394---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//input[@id="user_money_checkbox"]') --------
+2022-07-27 05:50:32,529---[INFO]---[root]---[base_handle.py---input---63]---当前的操作为：input，输入的值为：0.02
+2022-07-27 05:50:32,530---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//input[@id="user_money"]') --------
+2022-07-27 05:50:34,740---[INFO]---[root]---[base_handle.py---input---63]---当前的操作为：input，输入的值为：6666aaaa
+2022-07-27 05:50:34,740---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//p[@class="item"][4]//input') --------
+2022-07-27 05:50:34,981---[INFO]---[root]---[base_handle.py---click---53]---当前的操作为：click，点击的元素为：('xpath', '//button[@id="submit_order"]')
+2022-07-27 05:50:34,981---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//button[@id="submit_order"]') --------
+2022-07-27 05:50:38,071---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//h1[@class="ddn2"]') --------
+2022-07-27 05:50:38,408---[INFO]---[root]---[base_handle.py---is_displayed---223]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="c4da7277131ca458d59d57e18b9448d0", element="22be5f92-7fc7-4b81-8097-257d908c0ba0")>已经显示！
+2022-07-27 05:50:38,408---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的元素为：('xpath', '//h1[@class="ddn2"]') --------
+2022-07-27 05:50:38,446---[INFO]---[root]---[test_bvt.py---test_bvt---35]----------- 冒烟测试成功！！ --------
