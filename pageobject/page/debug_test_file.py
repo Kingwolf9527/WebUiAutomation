@@ -15,6 +15,7 @@ class Debug_(TpshopLoginPage):
     search_box = (By.XPATH, '//input[@class="search_usercenter_text"]')
     search_btn = (By.XPATH, '//a[@class="search_usercenter_btn"]')
     search_text = "欧式陶瓷"
+    
     add_to_cart = (By.XPATH, '//div[@class="p-btn"]/a')
     join_cart = (By.XPATH, '//a[@class="addcar buy_button"]')
     # 嵌套iframe

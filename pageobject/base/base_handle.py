@@ -236,6 +236,31 @@ class BaseHandle(BaseView):
             return self.find_element_highlight(element).is_enabled()
         logger.info(f"当前操作为：is_enabled，当前元素：{element}可以被使用！")
         return element.is_enabled()
+    
+    def scroll_buttom(self):
+        """
+        滚动条拖到页面底部
+        @return:
+        """
+        js = "var q=document.documentElement.scrollTop=10000"
+        self.driver.execute_script(js)
+        
+    def scroll_top(self):
+        """
+        滚动条拖到页面顶部
+        @return:
+        """
+        js = "var q=document.documentElement.scrollTop=0"
+        self.driver.execute_script(js)
+        
+    def scroll_target(self, element):
+        """
+        滚动条拖动到可见的元素去
+        @param element:
+        @return:
+        """
+        js = "arguments[0].scrollIntoView();"
+        self.driver.execute_script(js, element)
 
     def save_screenshot(self, img_name):
         """
