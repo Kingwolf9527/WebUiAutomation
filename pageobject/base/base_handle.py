@@ -166,7 +166,8 @@ class BaseHandle(BaseView):
     def iframe_into(self, iframe):
         """
         切换进入iframe
-        @param iframe:  iframe类型可以为name，id，或者xpath，tag_name定位到的iframe元素
+        @param iframe:  iframe定位为name，id时，类型为str
+                        xpath，tag_name等定位到的iframe元素时，类型为element(元素)
         @return:
         """
         if isinstance(iframe, str):

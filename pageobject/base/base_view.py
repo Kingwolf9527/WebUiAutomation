@@ -57,9 +57,9 @@ class BaseView(object):
         @param loc:
         @return:
         """
-        element = self.find_element(loc)
-        highlight_style = "background: yellow;  border: 3px solid red;"
         js = "arguments[0].setAttribute('style', arguments[1]);"
+        element = self.find_element(loc)
+        highlight_style_value = "background: yellow;  border: 3px solid red;"
         # 元素样式属性修改
-        self.driver.execute_script(js, element, highlight_style)
+        self.driver.execute_script(js, element, highlight_style_value)
         return element
