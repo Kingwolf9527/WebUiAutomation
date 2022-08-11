@@ -19,6 +19,28 @@ logger = CommonLog().get_logger()
 
 class BaseHandle(BaseView):
     
+    
+    def back(self):
+        """
+        页面后退
+        @return:
+        """
+        self.driver.back()
+        
+    def forword(self):
+        """
+        页面前进
+        @return:
+        """
+        self.driver.forword()
+        
+    def refresh(self):
+        """
+        当前页面刷新
+        @return:
+        """
+        self.driver.refresh()
+        
     def open(self, url):
         """
         打开指定URL
