@@ -5,7 +5,6 @@
 import sys
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
-import os
 from pathlib import Path
 import time
 from selenium.webdriver.support.select import Select
