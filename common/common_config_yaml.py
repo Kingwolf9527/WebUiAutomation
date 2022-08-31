@@ -37,9 +37,10 @@ class CommonYaml(object):
 
 if __name__ == '__main__':
     from common.common_file_path import base_yaml_path
-    test = CommonYaml(base_yaml_path)
+    test_path = base_yaml_path / 'login_data.yaml'
+    test = CommonYaml(test_path)
     data = test.read_yaml()
-    # print(type(data["dbutils_mysql_conf"]["port"]))
-    # print(type(data["dbutils_mysql_conf"]["blocking"]))
-    print(data)
+    for i in data:
+        print(i['login_base']['login_links'])
+        print(type(i['login_base']['login_links']))
 

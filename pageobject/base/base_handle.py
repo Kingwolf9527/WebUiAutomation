@@ -6,6 +6,7 @@ import sys
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
 import os
+from pathlib import Path
 import time
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.action_chains import ActionChains as AC
@@ -72,7 +73,7 @@ class BaseHandle(BaseView):
         @param loc:
         @return:
         """
-        logger.info(f"当前的操作为：click，点击的元素为：{loc}")
+        logger.info(f"当前的操作为：click")
         self.find_element_highlight(loc).click()
 
     def input(self, loc, value):
@@ -95,7 +96,7 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
-        if isinstance(element, tuple):
+        if isinstance(element, list):
             logger.info(f"当前的操作为：get_location，获取的元素坐标为：{self.find_element_highlight(element).location}")
             return self.find_element_highlight(element).location
         logger.info(f"当前的操作为：get_location，获取的元素坐标为：{element.location}")
@@ -107,7 +108,7 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
-        if isinstance(element, tuple):
+        if isinstance(element, list):
             logger.info(f"当前的操作为：get_size，获取的元素坐标为：{self.find_element_highlight(element).size}")
             return self.find_element_highlight(element).size
         logger.info(f"当前的操作为：get_size，获取的元素坐标为：{element.size}")
@@ -128,7 +129,7 @@ class BaseHandle(BaseView):
         @param name:
         @return:
         """
-        if isinstance(element, tuple):
+        if isinstance(element, list):
             logger.info(f"当前的操作为：get_attribute，获取的指定属性值为：{self.find_element_highlight(element).get_attribute(name)}")
             return self.find_element_highlight(element).get_attribute(name)
         logger.info(f"当前的操作为：get_attribute，获取的指定属性值为：{element.get_attribute(name)}")
@@ -140,7 +141,7 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
-        if isinstance(element, tuple):
+        if isinstance(element, list):
             logger.info(f"当前的操作为：get_element_text，获取的元素的文本值为：{self.find_element_highlight(element).text}")
             return self.find_element_highlight(element).text
         logger.info(f"当前的操作为：get_element_text，获取的元素的文本值为：{element.text}")
@@ -230,7 +231,7 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
-        if isinstance(element, tuple):
+        if isinstance(element, list):
             logger.info(f"当前操作为：is_selected，当前元素：{self.find_element_highlight(element)}已经被选中！")
             return self.find_element_highlight(element).is_selected()
         logger.info(f"当前操作为：is_selected，当前元素：{element}已经被选中！")
@@ -242,7 +243,7 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
-        if isinstance(element, tuple):
+        if isinstance(element, list):
             logger.info(f"当前操作为：is_displayed，当前元素：{self.find_element_highlight(element)}已经显示！")
             return self.find_element_highlight(element).is_displayed()
         logger.info(f"当前操作为：is_displayed，当前元素：{element}已经显示！")
@@ -254,7 +255,7 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
-        if isinstance(element, tuple):
+        if isinstance(element, list):
             logger.info(f"当前操作为：is_enabled，当前元素：{self.find_element_highlight(element)}可以被使用！")
             return self.find_element_highlight(element).is_enabled()
         logger.info(f"当前操作为：is_enabled，当前元素：{element}可以被使用！")
@@ -294,14 +295,14 @@ class BaseHandle(BaseView):
         # 格式化处理时间
         now_time = time.strftime("%Y-%m-%d-%H_%M_%S")
         # 判断截图文件夹是否存在
-        existsDir = os.path.exists(image_dir)
-        if not existsDir:
+        exists_dir = Path.exists(image_dir)
+        if not exists_dir:
             try:
-                os.makedirs(image_dir)
+                Path.mkdir(image_dir)
             except FileExistsError:
                 raise FileNotFoundError("------- 文件找不到！ -------")
         # 截图保存路径
-        save_image_path = os.path.join(image_dir, f"{img_name}_{now_time}.png")
+        save_image_path = image_dir.joinpath(f"{img_name}_{now_time}.png")
         try:
             self.driver.get_screenshot_as_file(save_image_path)
             logger.info(f'-------截图当前网页成功并存储在：{save_image_path}-------')

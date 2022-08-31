@@ -18,7 +18,7 @@ class BaseView(object):
     def __init__(self, driver):
         """
         初始化driver对象
-        @param driver:
+        @param driver:-
         """
         self.driver = driver
     
@@ -26,29 +26,37 @@ class BaseView(object):
     def find_element(self, loc, timeout=40, poll_frequency=0.5):
         """
         base元素查询
-        @param loc: 格式为元祖，类似：login_link = (By.Partiallink, "登录")
+        @param loc: 格式为列表，类似：login_link = [xpath, '//a[@class="red"]']
         @param timeout:
         @param poll_frequency:
         @return:
         """
-        logger.info(f"--------当前操作为：find_element，定位的元素为：{loc} --------")
+        logger.info(f"--------当前操作为：find_element，定位的方式为：{loc[0]}，定位的元素为：{loc[1]} --------")
+        if loc[0].lower() == "xpath":
+            return WebDriverWait(self.driver,
+                                 timeout=timeout,
+                                 poll_frequency=poll_frequency).until(lambda x: x.find_element_by_xpath(loc[1]))
         return WebDriverWait(self.driver,
                              timeout=timeout,
-                             poll_frequency=poll_frequency).until(lambda x: x.find_element(*loc))
+                             poll_frequency=poll_frequency).until(lambda x: x.find_element_by_css_selector(loc[1]))
     
     
     def find_elements(self, loc, timeout=1000, poll_frequency=0.5):
         """
         获取一组元素，结果为list
-        @param loc: 格式为元祖，类似：login_link = (By.Partiallink, "登录")
+        @param loc: 格式为列表，类似：login_link = [xpath, '//a[@class="red"]']
         @param timeout:
         @param poll_frequency:
         @return:
         """
-        logger.info(f"--------当前操作为：find_elements，定位的元素为：{loc} --------")
+        logger.info(f"--------当前操作为：find_elementz，定位的方式为：{loc[0]}，定位的元素为：{loc[1]} --------")
+        if loc[0].lower() == "xpath":
+            return WebDriverWait(self.driver,
+                                 timeout=timeout,
+                                 poll_frequency=poll_frequency).until(lambda x: x.find_elements_by_xpath(loc[1]))
         return WebDriverWait(self.driver,
                              timeout=timeout,
-                             poll_frequency=poll_frequency).until(lambda x: x.find_elements(*loc))
+                             poll_frequency=poll_frequency).until(lambda x: x.find_elements_by_css_selector(loc[1]))
     
     
     def find_element_highlight(self, loc):

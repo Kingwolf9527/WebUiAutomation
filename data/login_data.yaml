@@ -1,0 +1,15 @@
+-
+  login_base:
+    login_url: http://www.kingwolf-book14.com:9090
+    login_links: [xpath, '//a[@class="red"]']
+    username: [xpath, '//input[@id="username"]']
+    password: [xpath, '//input[@id="password"]']
+    verify_code: [xpath, '//input[@id="verify_code"]']
+    login_button: [xpath, '//a[@name="sbtbutton"]']
+    login_success_url: http://www.kingwolf-book14.com:9090/Home/User/index.html
+    exchanges: [xpath, '//i[@class="account-acc1"]']
+
+  account_data:
+    username_base: 13800138006
+    password_base: 123456
+    verify_code_base: 2222

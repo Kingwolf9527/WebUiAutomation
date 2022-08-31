@@ -6,6 +6,7 @@ import sys
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
 import os
+from pathlib import Path
 import threading
 import logging
 from logging import handlers
@@ -25,10 +26,8 @@ class CommonLog(object):
                 cls.logger.setLevel(logging.INFO)
 
                 # 设置log的保存文件
-                log_file = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) \
-                           + '/logs/' + 'file_log.log'
-                log_file_error = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) \
-                                 + '/logs/' + 'file_log_error.log'
+                log_file = Path.cwd().parent.joinpath("logs", "file_log.log")
+                log_file_error = Path.cwd().parent.joinpath("logs", "file_log_error.log")
 
                 if not cls.logger.handlers:
                     # 创建handler(包括文件以及控制台)
@@ -64,5 +63,5 @@ class CommonLog(object):
 
 if __name__ == '__main__':
     dd1 = CommonLog.get_logger()
-    dd1.info("---------king555555来测试一下数据6！！1-------------------")
-    dd1.error("--------可能的错误log需要test验证5！！！---------------------------")
+    dd1.info("---------king来测试一下数据6！！-------------------")
+    dd1.error("--------可能的错误log需要test验证7777777！！！---------------------------")

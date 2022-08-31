@@ -1,0 +1,33 @@
+2022-08-31 10:53:49,687---[INFO]---[root]---[common_log.py---<module>---66]------------king来测试一下数据6！！-------------------
+2022-08-31 10:53:49,689---[ERROR]---[root]---[common_log.py---<module>---67]-----------可能的错误log需要test验证7777777！！！---------------------------
+2022-08-31 10:55:17,579---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-08-31 10:55:20,778---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---31]-----------正在执行登录操作！ --------
+2022-08-31 10:55:20,778---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-08-31 10:55:20,927---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-08-31 10:55:53,708---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click，点击的元素为：//a[@class="red"]
+2022-08-31 10:55:53,709---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//a[@class="red"] --------
+2022-08-31 10:55:54,329---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-08-31 10:55:54,330---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//input[@id="username"] --------
+2022-08-31 10:55:54,528---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-08-31 10:55:54,528---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//input[@id="password"] --------
+2022-08-31 10:55:54,684---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-08-31 10:55:54,684---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//input[@id="verify_code"] --------
+2022-08-31 10:55:54,809---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click，点击的元素为：//a[@name="sbtbutton"]
+2022-08-31 10:55:54,809---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//a[@name="sbtbutton"] --------
+2022-08-31 10:55:54,888---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//i[@class="account-acc1"] --------
+2022-08-31 10:55:55,913---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="7980ee9dbdadac9e6352cfb4a4ca2a4c", element="4f3edcaa-ac09-4139-a315-17259c296eef")>已经显示！
+2022-08-31 10:55:55,914---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//i[@class="account-acc1"] --------
+2022-08-31 10:55:55,963---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//i[@class="account-acc1"] --------
+2022-08-31 10:55:55,990---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="7980ee9dbdadac9e6352cfb4a4ca2a4c", element="4f3edcaa-ac09-4139-a315-17259c296eef")>已经显示！
+2022-08-31 10:55:55,991---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的元素为：//i[@class="account-acc1"] --------
+2022-08-31 10:55:56,035---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---35]----------- 当前页面的‘交易中心’元素是否显示：True --------
+2022-08-31 10:55:56,040---[INFO]---[root]---[base_handle.py---get_current_url---154]---当前操作为：get_current_url，获取到当前URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html
+2022-08-31 10:55:56,048---[INFO]---[root]---[base_handle.py---get_current_url---154]---当前操作为：get_current_url，获取到当前URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html
+2022-08-31 10:55:56,052---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---37]----------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
+2022-08-31 10:55:56,052---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---38]-----------登录成功！ --------
+2022-08-31 23:48:10,764---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-08-31 23:48:13,610---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---31]-----------正在执行登录操作！ --------
+2022-08-31 23:48:13,611---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-08-31 23:48:13,751---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-08-31 23:48:58,472---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click，点击的元素为：['xpath', '//a[@class="red"]']
+2022-08-31 23:48:58,473---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
