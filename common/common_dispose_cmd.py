@@ -7,7 +7,6 @@ sys.path.append("..")
 sys.path.append(r"F:\WebUiAutomation")
 import subprocess
 import chardet
-import winreg
 
 
 

@@ -7,7 +7,7 @@
 import sys
 sys.path.append("..")
 sys.path.append(r"F:\WebUiAutomation")
-import os
+from pathlib import Path
 import pytest
 from common.common_log import CommonLog
 from common.common_file_path import allure_json_path, allure_html_path
@@ -23,11 +23,11 @@ class TestRunAll(object):
         # allure报告的路径
         logger.info(f"----------json_path的目录为：{allure_json_path}----------")
         logger.info(f"----------allure_path的目录为：{allure_html_path}----------")
-
-        if not os.path.exists(allure_json_path):
-            os.makedirs(allure_json_path)
-        if not os.path.exists(allure_html_path):
-            os.makedirs(allure_html_path)
+        
+        if not Path.exists(allure_json_path):
+            Path.mkdir(allure_json_path)
+        if not Path.exists(allure_html_path):
+            Path.mkdir(allure_html_path)
 
         # 执行pytest用例，生成数据
         args = [f'--alluredir={allure_json_path}']
