@@ -1,25 +1,129 @@
-2022-09-01 00:05:56,217---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-09-01 00:05:59,020---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---31]-----------正在执行登录操作！ --------
-2022-09-01 00:05:59,021---[INFO]---[root]---[base_handle.py---maximize---67]---当前的操作为：maximize
-2022-09-01 00:05:59,218---[INFO]---[root]---[base_handle.py---open---51]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
-2022-09-01 00:06:34,442---[INFO]---[root]---[base_handle.py---click---76]---当前的操作为：click
-2022-09-01 00:06:34,443---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
-2022-09-01 00:06:35,167---[INFO]---[root]---[base_handle.py---input---86]---当前的操作为：input，输入的值为：13800138006
-2022-09-01 00:06:35,168---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
-2022-09-01 00:06:35,382---[INFO]---[root]---[base_handle.py---input---86]---当前的操作为：input，输入的值为：123456
-2022-09-01 00:06:35,382---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
-2022-09-01 00:06:35,543---[INFO]---[root]---[base_handle.py---input---86]---当前的操作为：input，输入的值为：2222
-2022-09-01 00:06:35,543---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
-2022-09-01 00:06:35,689---[INFO]---[root]---[base_handle.py---click---76]---当前的操作为：click
-2022-09-01 00:06:35,690---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
-2022-09-01 00:06:35,775---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
-2022-09-01 00:06:37,573---[INFO]---[root]---[base_handle.py---is_displayed---247]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="9462225a9e7e08ea69bab3e44ed7dbc9", element="d8c4e927-7d9b-4257-b8c8-32f82a4dc390")>已经显示！
-2022-09-01 00:06:37,573---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
-2022-09-01 00:06:37,606---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
-2022-09-01 00:06:37,620---[INFO]---[root]---[base_handle.py---is_displayed---247]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="9462225a9e7e08ea69bab3e44ed7dbc9", element="d8c4e927-7d9b-4257-b8c8-32f82a4dc390")>已经显示！
-2022-09-01 00:06:37,620---[INFO]---[root]---[base_view.py---find_element---35]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
-2022-09-01 00:06:37,647---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---35]----------- 当前页面的‘交易中心’元素是否显示：True --------
-2022-09-01 00:06:37,652---[INFO]---[root]---[base_handle.py---get_current_url---155]---当前操作为：get_current_url，获取到当前URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html
-2022-09-01 00:06:37,662---[INFO]---[root]---[base_handle.py---get_current_url---155]---当前操作为：get_current_url，获取到当前URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html
-2022-09-01 00:06:37,667---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---37]----------- 当前页面的URL为：http://www.kingwolf-book14.com:9090/Home/User/index.html --------
-2022-09-01 00:06:37,667---[INFO]---[root]---[test_tpshop_login.py---test_tpshop_login---38]-----------登录成功！ --------
+2022-09-21 14:32:48,154---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-09-21 14:32:52,359---[INFO]---[root]---[test_bvt.py---test_bvt---34]-----------正在执行冒烟試操作！ --------
+2022-09-21 14:32:52,359---[INFO]---[root]---[test_bvt.py---test_bvt---36]-----------正在执行登录操作！ --------
+2022-09-21 14:32:52,360---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-09-21 14:32:52,497---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-09-21 14:33:24,038---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 14:33:24,042---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-09-21 14:33:24,584---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-09-21 14:33:24,585---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-09-21 14:33:24,729---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-09-21 14:33:24,730---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-09-21 14:33:24,893---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-09-21 14:33:24,894---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-09-21 14:33:25,023---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 14:33:25,023---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-09-21 14:33:25,102---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-09-21 14:33:26,572---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="c0df6370476dcc1ade58ff162acd6db5", element="eddc3d04-f9ae-49a7-a716-086b92fe2b7d")>已经显示！
+2022-09-21 14:33:26,572---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-09-21 14:33:26,680---[INFO]---[root]---[test_bvt.py---test_bvt---40]-----------登录成功！ --------
+2022-09-21 14:33:26,681---[INFO]---[root]---[test_bvt.py---test_bvt---42]----------- 正在执行搜索产品-添加购物车-购物车结算-使用余额支付-提交订单测试！--------
+2022-09-21 14:33:26,681---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：欧式陶瓷
+2022-09-21 14:33:26,681---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@class="search_usercenter_text"] --------
+2022-09-21 14:33:26,874---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 14:33:26,874---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="search_usercenter_btn"] --------
+2022-09-21 14:33:28,534---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 14:33:28,534---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="p-btn"]/a --------
+2022-09-21 14:33:28,607---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 14:33:28,608---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="addcar buy_button"] --------
+2022-09-21 14:33:30,608---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-09-21 14:33:31,150---[INFO]---[root]---[base_handle.py---iframe_into---199]---当前操作为：iframe_into，页面进行iframe切换，当前iframe元素为：<selenium.webdriver.remote.webelement.WebElement (session="c0df6370476dcc1ade58ff162acd6db5", element="646e0754-06dc-4f17-b9f1-af8f3970d5a8")>
+2022-09-21 14:33:31,150---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-09-21 14:33:31,195---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 14:33:31,195---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[contains(@class, "ui-button-122")] --------
+2022-09-21 14:33:31,495---[INFO]---[root]---[base_handle.py---iframe_out---207]---当前操作为：iframe_out，页面退出iframe，返回top层！
+2022-09-21 14:33:33,784---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="paytotal"] --------
+2022-09-21 14:33:33,865---[INFO]---[root]---[base_handle.py---get_element_text---144]---当前的操作为：get_element_text，获取的元素的文本值为：去结算
+2022-09-21 14:33:33,865---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="paytotal"] --------
+2022-09-21 16:36:11,661---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-09-21 16:36:13,950---[INFO]---[root]---[test_bvt.py---test_bvt---34]-----------正在执行冒烟試操作！ --------
+2022-09-21 16:36:13,951---[INFO]---[root]---[test_bvt.py---test_bvt---36]-----------正在执行登录操作！ --------
+2022-09-21 16:36:13,951---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-09-21 16:36:14,082---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-09-21 16:36:38,725---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 16:36:38,725---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-09-21 16:36:39,538---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-09-21 16:36:39,540---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-09-21 16:36:39,722---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-09-21 16:36:39,723---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-09-21 16:36:39,887---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-09-21 16:36:39,888---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-09-21 16:36:40,021---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 16:36:40,022---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-09-21 16:36:40,132---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-09-21 16:36:42,525---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="025bf9c910128bac69c87f48ba86abb8", element="c8cba312-43ec-4dde-8ad6-9ad9c53ca328")>已经显示！
+2022-09-21 16:36:42,525---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-09-21 16:36:42,577---[INFO]---[root]---[test_bvt.py---test_bvt---40]-----------登录成功！ --------
+2022-09-21 16:36:42,578---[INFO]---[root]---[test_bvt.py---test_bvt---42]----------- 正在执行搜索产品-添加购物车-购物车结算-使用余额支付-提交订单测试！--------
+2022-09-21 16:36:42,578---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：欧式陶瓷
+2022-09-21 16:36:42,578---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@class="search_usercenter_text"] --------
+2022-09-21 16:36:42,815---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 16:36:42,816---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="search_usercenter_btn"] --------
+2022-09-21 16:36:44,615---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 16:36:44,616---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="p-btn"]/a --------
+2022-09-21 16:36:44,702---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 16:36:44,703---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="addcar buy_button"] --------
+2022-09-21 16:36:46,931---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-09-21 16:36:47,481---[INFO]---[root]---[base_handle.py---iframe_into---199]---当前操作为：iframe_into，页面进行iframe切换，当前iframe元素为：<selenium.webdriver.remote.webelement.WebElement (session="025bf9c910128bac69c87f48ba86abb8", element="9cdf724e-7c7e-4bb8-9405-015212ebe63b")>
+2022-09-21 16:36:47,481---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-09-21 16:36:47,526---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 16:36:47,527---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[contains(@class, "ui-button-122")] --------
+2022-09-21 16:36:48,068---[INFO]---[root]---[base_handle.py---iframe_out---207]---当前操作为：iframe_out，页面退出iframe，返回top层！
+2022-09-21 16:36:50,483---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="paytotal"] --------
+2022-09-21 16:36:50,624---[INFO]---[root]---[base_handle.py---get_element_text---144]---当前的操作为：get_element_text，获取的元素的文本值为：去结算
+2022-09-21 16:36:50,625---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="paytotal"] --------
+2022-09-21 17:03:55,567---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-09-21 17:03:57,688---[INFO]---[root]---[test_bvt.py---test_bvt---34]-----------正在执行冒烟試操作！ --------
+2022-09-21 17:03:57,689---[INFO]---[root]---[test_bvt.py---test_bvt---36]-----------正在执行登录操作！ --------
+2022-09-21 17:03:57,689---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-09-21 17:03:57,838---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-09-21 17:06:38,793---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:06:38,794---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-09-21 17:06:39,504---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-09-21 17:06:39,504---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-09-21 17:06:39,676---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-09-21 17:06:39,677---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-09-21 17:06:39,837---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-09-21 17:06:39,837---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-09-21 17:06:39,972---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:06:39,972---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-09-21 17:06:40,137---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-09-21 17:06:41,240---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="c2ac91ddf2411ae80254e36d4011a0f2", element="18e86f58-f63f-43c6-b487-ed15d9117a2a")>已经显示！
+2022-09-21 17:06:41,240---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-09-21 17:06:41,291---[INFO]---[root]---[test_bvt.py---test_bvt---40]-----------登录成功！ --------
+2022-09-21 17:06:41,291---[INFO]---[root]---[test_bvt.py---test_bvt---42]----------- 正在执行搜索产品-添加购物车-购物车结算-使用余额支付-提交订单测试！--------
+2022-09-21 17:06:41,292---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：欧式陶瓷
+2022-09-21 17:06:41,292---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@class="search_usercenter_text"] --------
+2022-09-21 17:06:41,436---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:06:41,436---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="search_usercenter_btn"] --------
+2022-09-21 17:06:43,693---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:06:43,693---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="p-btn"]/a --------
+2022-09-21 17:06:43,835---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:06:43,835---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="addcar buy_button"] --------
+2022-09-21 17:06:46,058---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-09-21 17:06:46,627---[INFO]---[root]---[base_handle.py---iframe_into---199]---当前操作为：iframe_into，页面进行iframe切换，当前iframe元素为：<selenium.webdriver.remote.webelement.WebElement (session="c2ac91ddf2411ae80254e36d4011a0f2", element="fec0d590-30cc-4ea4-a931-5cd15b01c9e5")>
+2022-09-21 17:06:46,628---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-09-21 17:06:46,670---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:06:46,670---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[contains(@class, "ui-button-122")] --------
+2022-09-21 17:06:46,979---[INFO]---[root]---[base_handle.py---iframe_out---207]---当前操作为：iframe_out，页面退出iframe，返回top层！
+2022-09-21 17:06:49,206---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//em[@id="total_fee"] --------
+2022-09-21 17:06:49,267---[INFO]---[root]---[base_handle.py---get_element_text---144]---当前的操作为：get_element_text，获取的元素的文本值为：￥0.02
+2022-09-21 17:06:49,268---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//em[@id="total_fee"] --------
+2022-09-21 17:06:49,296---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:06:49,296---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="paytotal"] --------
+2022-09-21 17:06:57,032---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:06:57,032---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="user_money_checkbox"] --------
+2022-09-21 17:06:58,150---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：0.02
+2022-09-21 17:06:58,150---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="user_money"] --------
+2022-09-21 17:07:00,324---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：6666aaaa
+2022-09-21 17:07:00,324---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="item"][4]//input --------
+2022-09-21 17:07:00,585---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-09-21 17:07:00,586---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//button[@id="submit_order"] --------
+2022-09-21 17:07:03,695---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//h1[@class="ddn2"] --------
+2022-09-21 17:07:03,797---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="c2ac91ddf2411ae80254e36d4011a0f2", element="1c126dc8-a3ad-4ed6-a246-bba4394f70b3")>已经显示！
+2022-09-21 17:07:03,797---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//h1[@class="ddn2"] --------
+2022-09-21 17:07:03,839---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//h1[@class="ddn2"] --------
+2022-09-21 17:07:03,855---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="c2ac91ddf2411ae80254e36d4011a0f2", element="1c126dc8-a3ad-4ed6-a246-bba4394f70b3")>已经显示！
+2022-09-21 17:07:03,855---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//h1[@class="ddn2"] --------
+2022-09-21 17:07:03,881---[INFO]---[root]---[test_bvt.py---test_bvt---46]----------- 当前页面的‘待发货’元素是否显示：True --------
+2022-09-21 17:07:03,882---[INFO]---[root]---[test_bvt.py---test_bvt---47]----------- 冒烟测试成功！ --------

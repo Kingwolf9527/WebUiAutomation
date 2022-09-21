@@ -1,0 +1,26 @@
+-
+  bvt_base:
+    search_box: [xpath, '//input[@class="search_usercenter_text"]']
+    search_btn: [xpath, '//a[@class="search_usercenter_btn"]']
+    search_text: "欧式陶瓷"
+    add_to_cart: [xpath, '//div[@class="p-btn"]/a']
+    join_cart: [xpath, '//a[@class="addcar buy_button"]']
+    # 嵌套iframe
+    go_settlement_iframe: [xpath, '//div[@class="layui-layer-content"]/iframe']
+    go_settlement: [xpath, '//a[contains(@class, "ui-button-122")]']
+    # 购物车页面结算
+    pay_total: [xpath, '//a[@class="paytotal"]']
+    # 提前获取商品总金额[例如：￥0.02]--处理数字
+    total_fee: [xpath, '//em[@id="total_fee"]']
+    # 这一步处理test环境支付弹窗
+    # 勾选使用账户余额
+    use_balance: [xpath, '//input[@id="user_money_checkbox"]']
+    # 输入余额
+    input_balance: [xpath, '//input[@id="user_money"]']
+    # 支付密码[6666aaaa]
+    pay_pwd_ele: [xpath, '//p[@class="item"][4]//input']
+    pay_pwd: '6666aaaa'
+    # 提交订单
+    summit_order: [xpath, '//button[@id="submit_order"]']
+    # 代发货元素(用于断言校验元素)
+    deliver: [xpath, '//h1[@class="ddn2"]']
