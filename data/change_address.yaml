@@ -1,0 +1,33 @@
+
+-
+  address_dispose:
+    # 悬停定位进入地址管理
+    account_setting: [xpath, '//div[@class="u-dt"]/span']
+    shipping_address: [xpath, '//div[@class="u-dd"]/a[2]']
+    # 已经存在的地址数量
+    exists_address_num: [xpath, '//p[@class="gp_num2"]/em[1]']
+    # 新增地址
+    add_address_link: [xpath, '//a[@class="address"]/span']
+    consignee_: [xpath, '//input[@name="consignee"]']
+    consinee_name: 狼胸book14
+    phone: [xpath, '//input[@name="mobile"]']
+    phone_num: 13726227758
+    province: [xpath, '//select[@name="province"]']
+    provice_name: 广东省
+    city: [xpath, '//select[@name="city"]']
+    city_name: 珠海市
+    district: [xpath, '//select[@name="district"]']
+    district_name: 香洲区
+    town: [xpath, '//select[@name="twon"]']
+    town_name: 吉大街道
+    detail_address_: [xpath, '//input[@name="address"]']
+    detail_address_name: 狼胸大夏14楼14号
+    zipcode_: [xpath, '//input[@name="zipcode"]']
+    zipcode_num: 519000
+    # 保存
+    save_button: [xpath, '//button[@id="address_submit"]']
+
+    # 删除地址对应的联系人
+    delete_address_consignee_name: [xpath, '//ul[@class="add_conta"][last()]/li[@class="sx2"]']
+    # 删除地址
+    delete_address_: [xpath, '//ul[@class="add_conta"][last()]//a[2]']

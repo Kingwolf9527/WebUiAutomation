@@ -1,0 +1,15 @@
+-
+  baidu_tieba:
+    # 页面元素
+    login_url: "https://tieba.baidu.com"
+    login: [xpath, '//li[@class="u_login"]/div[@class="u_menu_item"]']
+    switch_login: [xpth, '//div[@class:"tang-pass-footerBar"]/p[@data-type:"normal"]']
+    username: [xpth, '//input[@name:"userName"]']
+    username_data: 1069645896@qq.com
+    password: [xpth, '//input[@name:"password"]']
+    password_data: xxxxxxx
+    login_button: [xpth, '//input[@id:"TANGRAM__PSP_4__submit"]']
+    tieba_urls: [xpth, '//a[@class:"u-f-item unsign"]']
+    more_tieba_check: [xpth, '//div[@id:"moreforum"]/a']
+    tieba_other_urls: [xpth, '//a[@class:"unsign"]']
+    sign_button: [xpth, '//a[contains[@class, "j_cansign"]]']
