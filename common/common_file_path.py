@@ -41,5 +41,3 @@ default_excel_path = Path.cwd().parent.joinpath("data", "excel_data.xlsx")
 
 # 默认sheet_name
 default_sheet_name = "users"
-
-print(autoit_file)
