@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#   -*- coding: utf-8 -*-
 #   @Author    :    KingWolf
 #   @Time      :    2022/10/19 3:33
 #   @File      :    modify_personal.py
@@ -29,7 +29,7 @@ class ModifyPersonal(BaseHandle):
         time.sleep(1)
         # 切换iframe
         self.iframe_into(kwargs["personal"]["upload_iframe"])
-        # 第一种方式):pathlib获取的路径为类，需要转为str类型
+        # # 第一种方式):pathlib获取的路径为类，需要转为str类型
         # self.upload_file(kwargs["personal"]["upload_button"], str(icon_path))
         # 第二种方式:使用第三方工具的autoIT
         self.click(kwargs["personal"]["upload_button"])
@@ -49,7 +49,7 @@ class ModifyPersonal(BaseHandle):
         self.click(kwargs["personal"]["sex"])
         time.sleep(0.5)
         # 修改生日(也可以通过js修改)
-        self.upload_file(kwargs["personal"]["birthday"], kwargs["personal"]["new_birthday"])
+        self.input(kwargs["personal"]["birthday"], kwargs["personal"]["new_birthday"])
         time.sleep(0.5)
         # 最后确认保存按钮
         self.click(kwargs["personal"]["save_button"])
