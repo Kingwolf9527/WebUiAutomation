@@ -1,0 +1,352 @@
+2022-10-18 02:08:27,690---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-18 02:08:35,695---[INFO]---[root]---[test_address_dispose.py---test_address_add---35]-----------正在执行登录操作！ --------
+2022-10-18 02:08:35,695---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-18 02:08:35,821---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-18 02:09:02,285---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:09:02,286---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-18 02:09:03,133---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-18 02:09:03,133---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-18 02:09:03,458---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-18 02:09:03,459---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-18 02:09:03,789---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-18 02:09:03,790---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-18 02:09:04,072---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:09:04,072---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-18 02:09:04,222---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:09:05,650---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="020c76820cb97902e9e02147685f50c5", element="4c0200fe-3b4b-4bc9-a392-7307999be7e8")>已经显示！
+2022-10-18 02:09:05,650---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:09:05,718---[INFO]---[root]---[test_address_dispose.py---test_address_add---39]-----------登录成功！ --------
+2022-10-18 02:09:05,718---[INFO]---[root]---[test_address_dispose.py---test_address_add---41]-----------正在执行新增收货地址操作！ --------
+2022-10-18 02:09:05,719---[INFO]---[root]---[base_handle.py---mouse---224]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-18 02:09:05,719---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-18 02:09:06,058---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:09:06,058---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[2] --------
+2022-10-18 02:09:06,674---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:09:06,763---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：5
+2022-10-18 02:09:06,774---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:09:06,774---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="address"]/span --------
+2022-10-18 02:09:06,885---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸book14
+2022-10-18 02:09:06,886---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="consignee"] --------
+2022-10-18 02:09:07,108---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13726227758
+2022-10-18 02:09:07,108---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="mobile"] --------
+2022-10-18 02:09:07,287---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:09:07,287---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="province"] --------
+2022-10-18 02:09:09,478---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:09:09,478---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="city"] --------
+2022-10-18 02:09:11,586---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:09:11,586---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="district"] --------
+2022-10-18 02:09:13,698---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:09:13,698---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="twon"] --------
+2022-10-18 02:09:15,813---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸大夏14楼14号
+2022-10-18 02:09:15,814---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="address"] --------
+2022-10-18 02:09:16,111---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：519000
+2022-10-18 02:09:16,111---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="zipcode"] --------
+2022-10-18 02:09:16,393---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:09:16,394---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//button[@id="address_submit"] --------
+2022-10-18 02:15:25,668---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-18 02:15:28,139---[INFO]---[root]---[test_address_dispose.py---test_address_add---35]-----------正在执行登录操作！ --------
+2022-10-18 02:15:28,139---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-18 02:15:28,284---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-18 02:15:52,420---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:15:52,420---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-18 02:15:52,954---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-18 02:15:52,955---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-18 02:15:53,146---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-18 02:15:53,147---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-18 02:15:53,302---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-18 02:15:53,302---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-18 02:15:53,452---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:15:53,452---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-18 02:15:53,543---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:15:54,571---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="ca7e77df6dc80cbc2c6c52ed40ef36e4", element="964b4830-f7dc-4316-acfb-396aa2f64a32")>已经显示！
+2022-10-18 02:15:54,572---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:15:54,622---[INFO]---[root]---[test_address_dispose.py---test_address_add---39]-----------登录成功！ --------
+2022-10-18 02:15:54,622---[INFO]---[root]---[test_address_dispose.py---test_address_add---41]-----------正在执行新增收货地址操作！ --------
+2022-10-18 02:15:54,623---[INFO]---[root]---[base_handle.py---mouse---224]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-18 02:15:54,623---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-18 02:15:54,931---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:15:54,932---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[2] --------
+2022-10-18 02:15:55,535---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:15:55,587---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：6
+2022-10-18 02:15:55,598---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:15:55,599---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="address"]/span --------
+2022-10-18 02:15:55,692---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸book14
+2022-10-18 02:15:55,693---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="consignee"] --------
+2022-10-18 02:15:55,871---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13726227758
+2022-10-18 02:15:55,872---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="mobile"] --------
+2022-10-18 02:15:56,088---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:15:56,088---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="province"] --------
+2022-10-18 02:15:58,287---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:15:58,288---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="city"] --------
+2022-10-18 02:16:00,433---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:16:00,433---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="district"] --------
+2022-10-18 02:16:02,548---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:16:02,549---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="twon"] --------
+2022-10-18 02:16:04,761---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸大夏14楼14号
+2022-10-18 02:16:04,762---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="address"] --------
+2022-10-18 02:16:04,988---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：519000
+2022-10-18 02:16:04,988---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="zipcode"] --------
+2022-10-18 02:16:05,231---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:16:05,232---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//button[@id="address_submit"] --------
+2022-10-18 02:19:07,618---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-18 02:19:10,009---[INFO]---[root]---[test_address_dispose.py---test_address_add---35]-----------正在执行登录操作！ --------
+2022-10-18 02:19:10,009---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-18 02:19:10,213---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-18 02:19:35,685---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:19:35,685---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-18 02:19:36,477---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-18 02:19:36,477---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-18 02:19:36,808---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-18 02:19:36,809---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-18 02:19:37,100---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-18 02:19:37,101---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-18 02:19:37,301---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:19:37,302---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-18 02:19:37,395---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:19:38,471---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="33968696715ff279818489d84abaa72b", element="72f3e5b5-f7b3-4e38-ad51-f24e09fb3ec2")>已经显示！
+2022-10-18 02:19:38,472---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:19:38,570---[INFO]---[root]---[test_address_dispose.py---test_address_add---39]-----------登录成功！ --------
+2022-10-18 02:19:38,571---[INFO]---[root]---[test_address_dispose.py---test_address_add---41]-----------正在执行新增收货地址操作！ --------
+2022-10-18 02:19:38,571---[INFO]---[root]---[base_handle.py---mouse---224]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-18 02:19:38,572---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-18 02:19:38,947---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:19:38,947---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[2] --------
+2022-10-18 02:19:39,461---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:19:39,524---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：5
+2022-10-18 02:19:39,537---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:19:39,537---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="address"]/span --------
+2022-10-18 02:19:39,645---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸book14
+2022-10-18 02:19:39,645---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="consignee"] --------
+2022-10-18 02:19:39,864---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13726227758
+2022-10-18 02:19:39,865---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="mobile"] --------
+2022-10-18 02:19:40,116---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:19:40,117---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="province"] --------
+2022-10-18 02:19:42,267---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:19:42,268---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="city"] --------
+2022-10-18 02:19:44,465---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:19:44,465---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="district"] --------
+2022-10-18 02:19:46,588---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:19:46,589---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="twon"] --------
+2022-10-18 02:19:48,720---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸大夏14楼14号
+2022-10-18 02:19:48,721---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="address"] --------
+2022-10-18 02:19:49,202---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：519000
+2022-10-18 02:19:49,202---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="zipcode"] --------
+2022-10-18 02:19:49,622---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:19:49,623---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//button[@id="address_submit"] --------
+2022-10-18 02:23:05,804---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-18 02:23:08,251---[INFO]---[root]---[test_address_dispose.py---test_address_add---35]-----------正在执行登录操作！ --------
+2022-10-18 02:23:08,252---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-18 02:23:08,489---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-18 02:23:32,276---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:23:32,278---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-18 02:23:32,774---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-18 02:23:32,775---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-18 02:23:33,021---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-18 02:23:33,022---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-18 02:23:33,186---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-18 02:23:33,187---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-18 02:23:33,345---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:23:33,345---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-18 02:23:33,443---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:23:34,401---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="f2c1d08ecde07352bd9f70c72abfec65", element="6f6e824a-1b4d-42d9-afa6-ffbc1ea79b06")>已经显示！
+2022-10-18 02:23:34,402---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:23:34,443---[INFO]---[root]---[test_address_dispose.py---test_address_add---39]-----------登录成功！ --------
+2022-10-18 02:23:34,444---[INFO]---[root]---[test_address_dispose.py---test_address_add---41]-----------正在执行新增收货地址操作！ --------
+2022-10-18 02:23:34,444---[INFO]---[root]---[base_handle.py---mouse---224]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-18 02:23:34,445---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-18 02:23:34,754---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:23:34,755---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[2] --------
+2022-10-18 02:23:35,287---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:23:35,348---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：5
+2022-10-18 02:23:35,358---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:23:35,358---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="address"]/span --------
+2022-10-18 02:23:35,456---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸book14
+2022-10-18 02:23:35,457---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="consignee"] --------
+2022-10-18 02:23:35,647---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13726227758
+2022-10-18 02:23:35,647---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="mobile"] --------
+2022-10-18 02:23:35,902---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:23:35,903---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="province"] --------
+2022-10-18 02:23:38,168---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:23:38,170---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="city"] --------
+2022-10-18 02:23:40,348---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:23:40,349---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="district"] --------
+2022-10-18 02:23:42,479---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:23:42,480---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="twon"] --------
+2022-10-18 02:23:44,685---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸大夏14楼14号
+2022-10-18 02:23:44,686---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="address"] --------
+2022-10-18 02:23:44,914---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：519000
+2022-10-18 02:23:44,915---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="zipcode"] --------
+2022-10-18 02:23:45,153---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:23:45,154---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//button[@id="address_submit"] --------
+2022-10-18 02:23:48,293---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:23:48,389---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：6
+2022-10-18 02:23:48,412---[INFO]---[root]---[test_address_dispose.py---test_address_add---46]----------- 新增的地址完毕！ --------
+2022-10-18 02:23:48,413---[INFO]---[root]---[test_address_dispose.py---test_address_add---47]----------- 最新成功保存的地址数量为：6条 --------
+2022-10-18 02:23:48,414---[INFO]---[root]---[test_address_dispose.py---test_address_add---49]-----------正在执行删除收货地址操作！ --------
+2022-10-18 02:25:57,446---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-18 02:25:59,551---[INFO]---[root]---[test_address_dispose.py---test_address_add---35]-----------正在执行登录操作！ --------
+2022-10-18 02:25:59,552---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-18 02:25:59,690---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-18 02:26:23,539---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:26:23,540---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-18 02:26:23,970---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-18 02:26:23,971---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-18 02:26:24,120---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-18 02:26:24,121---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-18 02:26:24,298---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-18 02:26:24,298---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-18 02:26:24,447---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:26:24,447---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-18 02:26:24,545---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:26:25,501---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="702ddb687cda3f35cbba1ee5bc514d8b", element="09830890-3733-4f11-bcc4-ecf7abf1e139")>已经显示！
+2022-10-18 02:26:25,502---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:26:25,572---[INFO]---[root]---[test_address_dispose.py---test_address_add---39]-----------登录成功！ --------
+2022-10-18 02:26:25,572---[INFO]---[root]---[test_address_dispose.py---test_address_add---41]-----------正在执行新增收货地址操作！ --------
+2022-10-18 02:26:25,573---[INFO]---[root]---[base_handle.py---mouse---224]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-18 02:26:25,573---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-18 02:26:25,886---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:26:25,886---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[2] --------
+2022-10-18 02:26:26,342---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:26:26,396---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：5
+2022-10-18 02:26:26,405---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:26:26,405---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="address"]/span --------
+2022-10-18 02:26:26,526---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸book14
+2022-10-18 02:26:26,526---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="consignee"] --------
+2022-10-18 02:26:26,810---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13726227758
+2022-10-18 02:26:26,810---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="mobile"] --------
+2022-10-18 02:26:27,132---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:26:27,132---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="province"] --------
+2022-10-18 02:26:29,286---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:26:29,286---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="city"] --------
+2022-10-18 02:26:31,392---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:26:31,392---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="district"] --------
+2022-10-18 02:26:33,514---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:26:33,514---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="twon"] --------
+2022-10-18 02:26:35,686---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸大夏14楼14号
+2022-10-18 02:26:35,686---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="address"] --------
+2022-10-18 02:26:35,899---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：519000
+2022-10-18 02:26:35,900---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="zipcode"] --------
+2022-10-18 02:26:36,093---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:26:36,094---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//button[@id="address_submit"] --------
+2022-10-18 02:26:39,238---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:26:39,308---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：6
+2022-10-18 02:26:39,331---[INFO]---[root]---[test_address_dispose.py---test_address_add---46]----------- 新增的地址完毕！ --------
+2022-10-18 02:26:39,331---[INFO]---[root]---[test_address_dispose.py---test_address_add---47]----------- 最新成功保存的地址数量为：6条 --------
+2022-10-18 02:26:39,332---[INFO]---[root]---[test_address_dispose.py---test_address_add---49]-----------正在执行删除收货地址操作！ --------
+2022-10-18 02:31:57,534---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-18 02:32:00,597---[INFO]---[root]---[test_address_dispose.py---test_address_add---35]-----------正在执行登录操作！ --------
+2022-10-18 02:32:00,598---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-18 02:32:00,854---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-18 02:32:25,579---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:32:25,579---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-18 02:32:26,188---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-18 02:32:26,188---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-18 02:32:26,390---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-18 02:32:26,391---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-18 02:32:26,607---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-18 02:32:26,608---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-18 02:32:26,802---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:32:26,803---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-18 02:32:26,910---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:32:27,941---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="72b9e6aa881c46641961bbbc6f841e6a", element="3f2d5863-f79c-49b2-983f-46297cc6ce28")>已经显示！
+2022-10-18 02:32:27,942---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 02:32:27,978---[INFO]---[root]---[test_address_dispose.py---test_address_add---39]-----------登录成功！ --------
+2022-10-18 02:32:27,978---[INFO]---[root]---[test_address_dispose.py---test_address_add---41]-----------正在执行新增收货地址操作！ --------
+2022-10-18 02:32:27,978---[INFO]---[root]---[base_handle.py---mouse---224]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-18 02:32:27,978---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-18 02:32:28,361---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:32:28,361---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[2] --------
+2022-10-18 02:32:28,871---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:32:28,930---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：5
+2022-10-18 02:32:28,944---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:32:28,944---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="address"]/span --------
+2022-10-18 02:32:29,062---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸book14
+2022-10-18 02:32:29,065---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="consignee"] --------
+2022-10-18 02:32:29,282---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13726227758
+2022-10-18 02:32:29,282---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="mobile"] --------
+2022-10-18 02:32:29,587---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:32:29,588---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="province"] --------
+2022-10-18 02:32:31,748---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:32:31,748---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="city"] --------
+2022-10-18 02:32:33,850---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:32:33,850---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="district"] --------
+2022-10-18 02:32:35,961---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 02:32:35,962---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="twon"] --------
+2022-10-18 02:32:38,197---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸大夏14楼14号
+2022-10-18 02:32:38,197---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="address"] --------
+2022-10-18 02:32:38,427---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：519000
+2022-10-18 02:32:38,428---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="zipcode"] --------
+2022-10-18 02:32:38,718---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:32:38,719---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//button[@id="address_submit"] --------
+2022-10-18 02:32:41,837---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:32:41,881---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：6
+2022-10-18 02:32:41,892---[INFO]---[root]---[test_address_dispose.py---test_address_add---46]----------- 新增的地址完毕！ --------
+2022-10-18 02:32:41,892---[INFO]---[root]---[test_address_dispose.py---test_address_add---47]----------- 最新成功保存的地址数量为：6条 --------
+2022-10-18 02:32:41,892---[INFO]---[root]---[test_address_dispose.py---test_address_add---49]-----------正在执行删除收货地址操作！ --------
+2022-10-18 02:32:41,893---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//ul[@class="add_conta"][last()]/li[@class="sx2"] --------
+2022-10-18 02:32:41,951---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：狼胸book14
+2022-10-18 02:32:41,963---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 02:32:41,964---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//ul[@class="add_conta"][last()]//a[2] --------
+2022-10-18 02:32:45,125---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 02:32:45,164---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：5
+2022-10-18 02:32:45,174---[INFO]---[root]---[test_address_dispose.py---test_address_add---54]-------------删除地址完毕！ --------
+2022-10-18 02:32:45,175---[INFO]---[root]---[test_address_dispose.py---test_address_add---55]----------- 最新成功保存的地址数量为：5条 --------
+2022-10-18 19:49:53,502---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-18 19:49:56,875---[INFO]---[root]---[test_address_dispose.py---test_address_add---35]-----------正在执行登录操作！ --------
+2022-10-18 19:49:56,876---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-18 19:49:56,997---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-18 19:50:23,070---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 19:50:23,070---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-18 19:50:23,813---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-18 19:50:23,814---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-18 19:50:24,137---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-18 19:50:24,138---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-18 19:50:24,337---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-18 19:50:24,338---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-18 19:50:24,504---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 19:50:24,505---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-18 19:50:24,613---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 19:50:26,165---[INFO]---[root]---[base_handle.py---is_displayed---246]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="6d329f5c585f0875d4d6edc61eff794d", element="aa40ce43-9d85-4554-b8a9-7fafe93ce8b7")>已经显示！
+2022-10-18 19:50:26,166---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-18 19:50:26,223---[INFO]---[root]---[test_address_dispose.py---test_address_add---39]-----------登录成功！ --------
+2022-10-18 19:50:26,223---[INFO]---[root]---[test_address_dispose.py---test_address_add---41]-----------正在执行新增收货地址操作！ --------
+2022-10-18 19:50:26,224---[INFO]---[root]---[base_handle.py---mouse---224]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-18 19:50:26,224---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-18 19:50:26,649---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 19:50:26,650---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[2] --------
+2022-10-18 19:50:27,183---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 19:50:27,321---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：5
+2022-10-18 19:50:27,331---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 19:50:27,331---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="address"]/span --------
+2022-10-18 19:50:27,466---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸book14
+2022-10-18 19:50:27,466---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="consignee"] --------
+2022-10-18 19:50:27,659---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13726227758
+2022-10-18 19:50:27,659---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="mobile"] --------
+2022-10-18 19:50:27,886---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 19:50:27,890---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="province"] --------
+2022-10-18 19:50:30,042---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 19:50:30,042---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="city"] --------
+2022-10-18 19:50:32,155---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 19:50:32,155---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="district"] --------
+2022-10-18 19:50:34,347---[INFO]---[root]---[base_handle.py---select_box---216]---当前操作为：select_box，select标签下的处理！
+2022-10-18 19:50:34,348---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//select[@name="twon"] --------
+2022-10-18 19:50:36,476---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：狼胸大夏14楼14号
+2022-10-18 19:50:36,476---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="address"] --------
+2022-10-18 19:50:36,678---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：519000
+2022-10-18 19:50:36,678---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@name="zipcode"] --------
+2022-10-18 19:50:36,904---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 19:50:36,904---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//button[@id="address_submit"] --------
+2022-10-18 19:50:40,014---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 19:50:40,059---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：6
+2022-10-18 19:50:40,071---[INFO]---[root]---[test_address_dispose.py---test_address_add---46]----------- 新增的地址完毕！ --------
+2022-10-18 19:50:40,072---[INFO]---[root]---[test_address_dispose.py---test_address_add---47]----------- 最新成功保存的地址数量为：6条 --------
+2022-10-18 19:50:40,072---[INFO]---[root]---[test_address_dispose.py---test_address_add---49]-----------正在执行删除收货地址操作！ --------
+2022-10-18 19:50:40,072---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//ul[@class="add_conta"][last()]/li[@class="sx2"] --------
+2022-10-18 19:50:40,134---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：狼胸book14
+2022-10-18 19:50:40,151---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-18 19:50:40,151---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//ul[@class="add_conta"][last()]//a[2] --------
+2022-10-18 19:50:43,273---[INFO]---[root]---[test_address_dispose.py---test_address_add---51]-----------删除的收货地址联系人为：狼胸book14 --------
+2022-10-18 19:50:43,273---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//p[@class="gp_num2"]/em[1] --------
+2022-10-18 19:50:43,311---[INFO]---[root]---[base_handle.py---get_element_text---146]---当前的操作为：get_element_text，获取的元素的文本值为：5
+2022-10-18 19:50:43,321---[INFO]---[root]---[test_address_dispose.py---test_address_add---54]-------------删除地址完毕！ --------
+2022-10-18 19:50:43,321---[INFO]---[root]---[test_address_dispose.py---test_address_add---55]----------- 最新成功保存的地址数量为：5条 --------

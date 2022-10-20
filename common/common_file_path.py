@@ -30,9 +30,16 @@ foreground_infos = Path.cwd().parent.joinpath("data", "foreground.yaml")
 # 截图保存文件路径
 image_dir = Path.cwd().parent.joinpath("images")
 
+# 个人头像位置
+icon_path = image_dir.joinpath("CR7.jpg")
+
+# 保存生成autoIT程序路径
+autoit_file = Path.cwd().parent.joinpath("config").joinpath("upload_img.exe")
+
 # 默认Excel文件的路径
 default_excel_path = Path.cwd().parent.joinpath("data", "excel_data.xlsx")
 
 # 默认sheet_name
 default_sheet_name = "users"
 
+print(autoit_file)

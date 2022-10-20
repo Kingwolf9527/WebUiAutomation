@@ -1,0 +1,25 @@
+-
+  personal:
+    # 鼠标悬停进入个人信息页面
+    account_setting: [ xpath, '//div[@class="u-dt"]/span']
+    personal_info: [xpath, '//div[@class="u-dd"]/a[1]']
+    # 头像信息修改
+    icon: [xpath, '//img[@id="preview"]']
+    # 切换iframe
+    upload_iframe: [xpath, '//div[@class="layui-layer-content"]/iframe']
+    upload_button: [xpath, '//input[@class="webuploader-element-invisible"]']
+    img_size: [xpath, '//div[@class="info"]']
+    img_save_button: [xpath, '//div[@class="saveBtn"]']
+    # 昵称修改
+    nickname: [xpath, '//input[@id="nickname"]']
+    new_nickname: KingWolf
+    # 性别选择“男”
+    sex: [xpath, '//input[@id="man"]']
+    # 修改生日(也可以使用js赋值)
+    birthday: [xpath, '//input[@id="birthday"]']
+    new_birthday: 1992-01-28
+    # 确认保存按钮
+    save_button: [xpath, '//input[@class="save"]']
+    # 判断修改成功的标识
+    success_modify: [xpath, '//div[@class="sd1"]/span']
+    flag_text: 操作成功

@@ -88,6 +88,19 @@ class BaseHandle(BaseView):
         ele.clear()
         # 再输入
         ele.send_keys(value)
+        
+    def upload_file(self, loc, file_path):
+        """
+        上传文件处理(input类型为file)
+        @param loc:
+        @param file_path:
+        @return:
+        """
+        logger.info(f"当前的操作为：upload_file，输入的文件路径为：{file_path}")
+        ele = self.find_element_highlight(loc)
+        # 输入文件路径
+        ele.send_keys(file_path)
+        
 
     def get_location(self, element):
         """
