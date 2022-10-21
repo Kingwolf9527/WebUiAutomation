@@ -180,6 +180,7 @@ class BaseHandle(BaseView):
         获取所有tab页句柄
         @return:
         """
+        logger.info(f"当前操作为：get_windows，获取的所有句柄为：{window_name}")
         return self.driver.window_handles
 
     def window_into(self, window_name):
@@ -196,6 +197,7 @@ class BaseHandle(BaseView):
         切换alert弹窗
         @return:
         """
+        logger.info(f"当前操作为：switchto_alert，获取到弹窗为：{window_name}")
         self.driver.switch_to.alert
 
     def iframe_into(self, iframe):
@@ -273,11 +275,22 @@ class BaseHandle(BaseView):
         logger.info(f"当前操作为：is_enabled，当前元素：{element}可以被使用！")
         return element.is_enabled()
     
+    def execute_js(self, js, *args):
+        """
+        执行通用js语句
+        @param js:
+        @param args:    参数可有可无
+        @return:
+        """
+        logger.info(f"当前操作为：execute_js，执行的js语句为：{js}")
+        self.driver.execute_script(js, *args)
+    
     def scroll_buttom(self):
         """
         滚动条拖到页面底部
         @return:
         """
+        logger.info(f"当前操作为：scroll_buttom，滚动条拖到底部！")
         js = "var q=document.documentElement.scrollTop=10000"
         self.driver.execute_script(js)
         
@@ -286,6 +299,7 @@ class BaseHandle(BaseView):
         滚动条拖到页面顶部
         @return:
         """
+        logger.info(f"当前操作为：scroll_top，滚动条拖到顶部！")
         js = "var q=document.documentElement.scrollTop=0"
         self.driver.execute_script(js)
         
@@ -295,6 +309,7 @@ class BaseHandle(BaseView):
         @param element:
         @return:
         """
+        logger.info(f"当前操作为：scroll_target，滚动条拖到指定的元素：{window_name}上！")
         js = "arguments[0].scrollIntoView();"
         self.driver.execute_script(js, element)
 

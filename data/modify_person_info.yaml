@@ -18,7 +18,7 @@
     # 修改生日(也可以使用js赋值)
     birthday: [xpath, '//input[@id="birthday"]']
     new_birthday: "1992-01-28"
-    new_birthday_js: 'document.getElementById("train_date").value="1992-01-28"'
+    new_birthday_js: 'document.getElementById("birthday").value="1992-01-27"'
     # 确认保存按钮
     save_button: [xpath, '//input[@class="save"]']
     # 判断修改成功的标识

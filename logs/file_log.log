@@ -1,47 +1,85 @@
-2022-10-21 05:09:22,276---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
-2022-10-21 05:09:26,034---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---35]-----------正在执行登录操作！ --------
-2022-10-21 05:09:26,035---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
-2022-10-21 05:09:26,203---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
-2022-10-21 05:09:51,927---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
-2022-10-21 05:09:51,928---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
-2022-10-21 05:09:52,676---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
-2022-10-21 05:09:52,676---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
-2022-10-21 05:09:52,841---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
-2022-10-21 05:09:52,841---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
-2022-10-21 05:09:52,990---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
-2022-10-21 05:09:52,991---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
-2022-10-21 05:09:53,135---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
-2022-10-21 05:09:53,136---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
-2022-10-21 05:09:53,224---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
-2022-10-21 05:09:54,818---[INFO]---[root]---[base_handle.py---is_displayed---259]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="2a7ccbee8a08c310136fbc2195412cf2", element="d955b2d7-ce92-493e-bbed-e42258bcaa07")>已经显示！
-2022-10-21 05:09:54,819---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
-2022-10-21 05:09:54,892---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---39]-----------登录成功！ --------
-2022-10-21 05:09:54,893---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---41]-----------正在执行修改个人信息操作！ --------
-2022-10-21 05:09:54,893---[INFO]---[root]---[base_handle.py---mouse---237]---当前操作为：mouse，鼠标相关操作的处理！
-2022-10-21 05:09:54,894---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
-2022-10-21 05:09:55,218---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
-2022-10-21 05:09:55,218---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[1] --------
-2022-10-21 05:09:56,744---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
-2022-10-21 05:09:56,744---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//img[@id="preview"] --------
-2022-10-21 05:09:58,295---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
-2022-10-21 05:09:58,328---[INFO]---[root]---[base_handle.py---iframe_into---212]---当前操作为：iframe_into，页面进行iframe切换，当前iframe元素为：<selenium.webdriver.remote.webelement.WebElement (session="2a7ccbee8a08c310136fbc2195412cf2", element="55b6138d-8deb-4d69-8b2a-ba5290a44e13")>
-2022-10-21 05:09:58,329---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
-2022-10-21 05:09:58,381---[INFO]---[root]---[base_handle.py---upload_file---99]---当前的操作为：upload_file，输入的文件路径为：F:\WebUiAutomation\images\CR7.jpg
-2022-10-21 05:09:58,381---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@class="webuploader-element-invisible"] --------
-2022-10-21 05:09:59,977---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="info"] --------
-2022-10-21 05:10:00,114---[INFO]---[root]---[base_handle.py---get_element_text---157]---当前的操作为：get_element_text，获取的元素的文本值为：共1份（161.26K），已上传1份
-2022-10-21 05:10:00,115---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="info"] --------
-2022-10-21 05:10:00,140---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
-2022-10-21 05:10:00,140---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="saveBtn"] --------
-2022-10-21 05:10:00,318---[INFO]---[root]---[base_handle.py---iframe_out---220]---当前操作为：iframe_out，页面退出iframe，返回top层！
-2022-10-21 05:10:00,324---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：KingWolf
-2022-10-21 05:10:00,324---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="nickname"] --------
-2022-10-21 05:10:01,070---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
-2022-10-21 05:10:01,070---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="man"] --------
-2022-10-21 05:10:01,669---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：1992-01-28
-2022-10-21 05:10:01,669---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="birthday"] --------
-2022-10-21 05:10:02,467---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
-2022-10-21 05:10:02,468---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@class="save"] --------
-2022-10-21 05:10:05,213---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="sd1"]/span --------
-2022-10-21 05:10:05,270---[INFO]---[root]---[base_handle.py---get_element_text---159]---当前的操作为：get_element_text，获取的元素的文本值为：操作成功
-2022-10-21 05:10:05,282---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---45]-----------修改个人信息成功！ --------
+2022-10-22 03:43:06,288---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-22 03:43:08,734---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---35]-----------正在执行登录操作！ --------
+2022-10-22 03:43:08,735---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-22 03:43:08,902---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-22 03:43:36,305---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:43:36,307---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-22 03:43:37,026---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-22 03:43:37,026---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-22 03:43:37,248---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-22 03:43:37,249---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-22 03:43:37,499---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-22 03:43:37,499---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-22 03:43:37,822---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:43:37,823---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-22 03:43:37,978---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-22 03:43:38,962---[INFO]---[root]---[base_handle.py---is_displayed---259]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="a1d9c7935924ff994a7ea6df42a92d98", element="7420256b-8665-417b-a2d7-ea118ca4c58a")>已经显示！
+2022-10-22 03:43:38,962---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-22 03:43:39,015---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---39]-----------登录成功！ --------
+2022-10-22 03:43:39,016---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---41]-----------正在执行修改个人信息操作！ --------
+2022-10-22 03:43:39,016---[INFO]---[root]---[base_handle.py---mouse---237]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-22 03:43:39,016---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-22 03:43:39,325---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:43:39,325---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[1] --------
+2022-10-22 03:43:40,733---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:43:40,734---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//img[@id="preview"] --------
+2022-10-22 03:43:42,092---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-10-22 03:43:42,124---[INFO]---[root]---[base_handle.py---iframe_into---212]---当前操作为：iframe_into，页面进行iframe切换，当前iframe元素为：<selenium.webdriver.remote.webelement.WebElement (session="a1d9c7935924ff994a7ea6df42a92d98", element="0c5a5978-b8a6-44f2-9fc7-7b2a940e3100")>
+2022-10-22 03:43:42,124---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-10-22 03:43:42,176---[INFO]---[root]---[base_handle.py---upload_file---99]---当前的操作为：upload_file，输入的文件路径为：F:\WebUiAutomation\images\CR7.jpg
+2022-10-22 03:43:42,177---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@class="webuploader-element-invisible"] --------
+2022-10-22 03:43:43,771---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="info"] --------
+2022-10-22 03:43:43,875---[INFO]---[root]---[base_handle.py---get_element_text---157]---当前的操作为：get_element_text，获取的元素的文本值为：共1份（161.26K），已上传1份
+2022-10-22 03:43:43,876---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="info"] --------
+2022-10-22 03:43:43,923---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:43:43,923---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="saveBtn"] --------
+2022-10-22 03:43:44,119---[INFO]---[root]---[base_handle.py---iframe_out---220]---当前操作为：iframe_out，页面退出iframe，返回top层！
+2022-10-22 03:43:44,140---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：KingWolf
+2022-10-22 03:43:44,141---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="nickname"] --------
+2022-10-22 03:43:44,886---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:43:44,887---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="man"] --------
+2022-10-22 03:46:36,234---[INFO]---[root]---[common_driver.py---get_driver---46]----------当前浏览器是：chrome-------
+2022-10-22 03:46:39,496---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---35]-----------正在执行登录操作！ --------
+2022-10-22 03:46:39,503---[INFO]---[root]---[base_handle.py---maximize---66]---当前的操作为：maximize
+2022-10-22 03:46:39,663---[INFO]---[root]---[base_handle.py---open---50]---当前操作为：open，打开的URL为：http://www.kingwolf-book14.com:9090
+2022-10-22 03:47:02,468---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:47:02,469---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@class="red"] --------
+2022-10-22 03:47:03,110---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：13800138006
+2022-10-22 03:47:03,110---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="username"] --------
+2022-10-22 03:47:03,266---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：123456
+2022-10-22 03:47:03,266---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="password"] --------
+2022-10-22 03:47:03,445---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：2222
+2022-10-22 03:47:03,445---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="verify_code"] --------
+2022-10-22 03:47:03,609---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:47:03,610---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//a[@name="sbtbutton"] --------
+2022-10-22 03:47:03,711---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-22 03:47:04,995---[INFO]---[root]---[base_handle.py---is_displayed---259]---当前操作为：is_displayed，当前元素：<selenium.webdriver.remote.webelement.WebElement (session="6e219371f671f7c1ce12cb6e412c02b8", element="5b9f0ae0-c466-403f-9017-07e23072f8c3")>已经显示！
+2022-10-22 03:47:04,996---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//i[@class="account-acc1"] --------
+2022-10-22 03:47:05,088---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---39]-----------登录成功！ --------
+2022-10-22 03:47:05,088---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---41]-----------正在执行修改个人信息操作！ --------
+2022-10-22 03:47:05,089---[INFO]---[root]---[base_handle.py---mouse---237]---当前操作为：mouse，鼠标相关操作的处理！
+2022-10-22 03:47:05,089---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dt"]/span --------
+2022-10-22 03:47:05,416---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:47:05,417---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="u-dd"]/a[1] --------
+2022-10-22 03:47:06,974---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:47:06,974---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//img[@id="preview"] --------
+2022-10-22 03:47:08,331---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-10-22 03:47:08,376---[INFO]---[root]---[base_handle.py---iframe_into---212]---当前操作为：iframe_into，页面进行iframe切换，当前iframe元素为：<selenium.webdriver.remote.webelement.WebElement (session="6e219371f671f7c1ce12cb6e412c02b8", element="99f31322-3732-4422-86e3-c6c3ce94b208")>
+2022-10-22 03:47:08,377---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="layui-layer-content"]/iframe --------
+2022-10-22 03:47:08,487---[INFO]---[root]---[base_handle.py---upload_file---99]---当前的操作为：upload_file，输入的文件路径为：F:\WebUiAutomation\images\CR7.jpg
+2022-10-22 03:47:08,488---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@class="webuploader-element-invisible"] --------
+2022-10-22 03:47:10,174---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="info"] --------
+2022-10-22 03:47:10,219---[INFO]---[root]---[base_handle.py---get_element_text---157]---当前的操作为：get_element_text，获取的元素的文本值为：共1份（161.26K），已上传1份
+2022-10-22 03:47:10,220---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="info"] --------
+2022-10-22 03:47:10,247---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:47:10,248---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="saveBtn"] --------
+2022-10-22 03:47:10,399---[INFO]---[root]---[base_handle.py---iframe_out---220]---当前操作为：iframe_out，页面退出iframe，返回top层！
+2022-10-22 03:47:10,405---[INFO]---[root]---[base_handle.py---input---85]---当前的操作为：input，输入的值为：KingWolf
+2022-10-22 03:47:10,405---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="nickname"] --------
+2022-10-22 03:47:11,276---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:47:11,277---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@id="man"] --------
+2022-10-22 03:47:12,483---[INFO]---[root]---[base_handle.py---click---75]---当前的操作为：click
+2022-10-22 03:47:12,483---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//input[@class="save"] --------
+2022-10-22 03:47:15,191---[INFO]---[root]---[base_view.py---find_element---34]-----------当前操作为：find_element，定位的方式为：xpath，定位的元素为：//div[@class="sd1"]/span --------
+2022-10-22 03:47:15,241---[INFO]---[root]---[base_handle.py---get_element_text---159]---当前的操作为：get_element_text，获取的元素的文本值为：操作成功
+2022-10-22 03:47:15,252---[INFO]---[root]---[test_modify_personal.py---test_modify_personal---45]-----------修改个人信息成功！ --------

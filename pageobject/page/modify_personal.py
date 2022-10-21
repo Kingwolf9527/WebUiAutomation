@@ -50,6 +50,7 @@ class ModifyPersonal(BaseHandle):
         time.sleep(0.5)
         # 修改生日(也可以通过js修改)
         self.input(kwargs["personal"]["birthday"], kwargs["personal"]["new_birthday"])
+        # self.execute_js(kwargs["personal"]["new_birthday_js"])
         time.sleep(0.5)
         # 最后确认保存按钮
         self.click(kwargs["personal"]["save_button"])
