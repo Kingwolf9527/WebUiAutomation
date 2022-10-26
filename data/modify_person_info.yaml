@@ -7,7 +7,8 @@
     icon: [xpath, '//img[@id="preview"]']
     # 切换iframe
     upload_iframe: [xpath, '//div[@class="layui-layer-content"]/iframe']
-    upload_button: [xpath, '//input[@class="webuploader-element-invisible"]']
+    upload_button: [xpath, '//div[@id="filePicker"]//input[@class="webuploader-element-invisible"]']
+    upload_button_js: 'arguments[0].click()'
     img_size: [xpath, '//div[@class="info"]']
     img_save_button: [xpath, '//div[@class="saveBtn"]']
     # 昵称修改
@@ -17,7 +18,7 @@
     sex: [xpath, '//input[@id="man"]']
     # 修改生日(也可以使用js赋值)
     birthday: [xpath, '//input[@id="birthday"]']
-    new_birthday: "1992-01-28"
+    new_birthday: "1992-03-28"
     new_birthday_js: 'document.getElementById("birthday").value="1992-01-27"'
     # 确认保存按钮
     save_button: [xpath, '//input[@class="save"]']

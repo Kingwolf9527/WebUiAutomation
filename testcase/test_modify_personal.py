@@ -41,6 +41,7 @@ class TestModifyPersonal(object):
         logger.info(f"--------正在执行修改个人信息操作！ --------")
         dd = ModifyPersonal(get_driver)
         dd.modify_info(**personal_infos)
+        logger.info(f"--------上传的图片大小为：{dd.images_size}  --------")
         assert dd.success_flag == dd.forecast_text
         logger.info(f"--------修改个人信息成功！ --------")
 

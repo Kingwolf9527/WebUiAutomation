@@ -8,6 +8,7 @@ import sys
 sys.path.append(".")
 sys.path.append(r"F:\WebUiAutomation")
 import time
+import re
 from ..base.base_handle import BaseHandle
 from common.common_file_path import icon_path, autoit_file
 from common.common_dispose_cmd import DisposeCommand
@@ -26,19 +27,21 @@ class ModifyPersonal(BaseHandle):
         time.sleep(1)
         # 修改头像
         self.click(kwargs["personal"]["icon"])
-        time.sleep(1)
+        time.sleep(2)
         # 切换iframe
         self.iframe_into(kwargs["personal"]["upload_iframe"])
-        # # 第一种方式):pathlib获取的路径为类，需要转为str类型
-        # self.upload_file(kwargs["personal"]["upload_button"], str(icon_path))
-        # 第二种方式:使用第三方工具的autoIT
-        self.click(kwargs["personal"]["upload_button"])
-        time.sleep(1)
-        # Python执行生成的exe文件
-        DisposeCommand.execute_file(str(autoit_file))
-        time.sleep(1.5)
-        # 获取上传图片大小([共1份（39.13K），已上传1份]后续在提取)
+        time.sleep(2)
+        # 第一种方式:pathlib获取的路径为类，需要转为str类型
+        self.upload_file(kwargs["personal"]["upload_button"], str(icon_path))
+        # # 第二种方式:使用第三方工具的autoIT
+        # self.upload_file_click(kwargs["personal"]["upload_button"])
+        # time.sleep(2)
+        # # Python执行生成的exe文件
+        # DisposeCommand.execute_file(str(autoit_file))
+        # time.sleep(1.5)
+        # 获取上传图片大小([共1份（39.13K），已上传1份])
         self.get_img_size = self.get_element_text(kwargs["personal"]["img_size"])
+        self.images_size = re.findall("份（(.*)）", self.get_img_size)[0]
         self.click(kwargs["personal"]["img_save_button"])
         # 退出iframe
         self.iframe_out()

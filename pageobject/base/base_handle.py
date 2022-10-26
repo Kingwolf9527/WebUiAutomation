@@ -8,6 +8,7 @@ sys.path.append(r"F:\WebUiAutomation")
 from pathlib import Path
 import time
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains as AC
 from common.common_file_path import image_dir
 from common.common_log import CommonLog
@@ -197,7 +198,7 @@ class BaseHandle(BaseView):
         切换alert弹窗
         @return:
         """
-        logger.info(f"当前操作为：switchto_alert，获取到弹窗为：{window_name}")
+        logger.info(f"当前操作为：switchto_alert")
         self.driver.switch_to.alert
 
     def iframe_into(self, iframe):
@@ -238,6 +239,17 @@ class BaseHandle(BaseView):
         """
         logger.info("当前操作为：mouse，鼠标相关操作的处理！")
         return AC(self.driver)
+    
+    def keyboard(self, loc, keyboard_operation=Keys.ENTER):
+        """
+        @param loc:
+        @param keyboard_operation: 默认为键盘还行点击，keyboard_operation的值为类属性，格式为：Keys.xxxx
+        @return:
+        """
+        logger.info(f"当前的操作为：keyboard，键盘的操作为：{keyboard_operation}")
+        ele = self.find_element_highlight(loc)
+        # 输入文件路径
+        ele.send_keys(keyboard_operation)
 
     def is_selected(self, element):
         """
@@ -275,6 +287,15 @@ class BaseHandle(BaseView):
         logger.info(f"当前操作为：is_enabled，当前元素：{element}可以被使用！")
         return element.is_enabled()
     
+    def upload_file_click(self, loc):
+        """
+        处理上传文件点击事件
+        @param loc:
+        @return:
+        """
+        element = self.find_element_highlight(loc)
+        self.mouse().move_to_element_with_offset(element, 0, 0).click(element).perform()
+    
     def execute_js(self, js, *args):
         """
         执行通用js语句
@@ -303,13 +324,14 @@ class BaseHandle(BaseView):
         js = "var q=document.documentElement.scrollTop=0"
         self.driver.execute_script(js)
         
-    def scroll_target(self, element):
+    def scroll_target(self, loc):
         """
         滚动条拖动到可见的元素去
-        @param element:
+        @param loc:
         @return:
         """
-        logger.info(f"当前操作为：scroll_target，滚动条拖到指定的元素：{window_name}上！")
+        element = self.find_element_highlight(loc)
+        logger.info(f"当前操作为：scroll_target，滚动条拖到指定的元素：{element}上！")
         js = "arguments[0].scrollIntoView();"
         self.driver.execute_script(js, element)
 
