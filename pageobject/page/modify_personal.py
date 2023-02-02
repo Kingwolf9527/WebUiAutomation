@@ -34,6 +34,7 @@ class ModifyPersonal(BaseHandle):
         # 第一种方式:pathlib获取的路径为类，需要转为str类型
         self.upload_file(kwargs["personal"]["upload_button"], str(icon_path))
         # # 第二种方式:使用第三方工具的autoIT
+        # self.scroll_target(kwargs["personal"]["upload_button"])
         # self.upload_file_click(kwargs["personal"]["upload_button"])
         # time.sleep(2)
         # # Python执行生成的exe文件

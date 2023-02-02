@@ -332,7 +332,7 @@ class BaseHandle(BaseView):
         """
         element = self.find_element_highlight(loc)
         logger.info(f"当前操作为：scroll_target，滚动条拖到指定的元素：{element}上！")
-        js = "arguments[0].scrollIntoView();"
+        js = "arguments[0].scrollIntoView(true);"
         self.driver.execute_script(js, element)
 
     def save_screenshot(self, img_name):
