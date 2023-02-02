@@ -9,7 +9,7 @@
     </content>
     <content url="file://$MODULE_DIR$/../flask_project" />
     <content url="file://$MODULE_DIR$/../ui2_project" />
-    <orderEntry type="jdk" jdkName="Python 2.7" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
