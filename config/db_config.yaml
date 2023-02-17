@@ -2,7 +2,7 @@ dbutils_mysql_conf:
   host: 127.0.0.1
   port: 3306
   user: root
-  password: 123456
+  password: dfxs9527
   db: python_test
   charset: utf8
   # 初始化时，连接池中至少创建的空闲的链接，0表示不创建
